@@ -1,0 +1,123 @@
+[options]
+scroll_on_output = false
+scroll_on_keystroke = true
+audible_bell = false
+mouse_autohide = false
+allow_bold = true
+dynamic_title = true
+urgent_on_bell = true
+clickable_url = true
+font = Noto Emoji Mono 11
+font = Noto Sans Mono 11
+font = Monospace 11
+scrollback_lines = 10000
+search_wrap = true
+#icon_name = terminal
+#geometry = 640x480
+
+# "system", "on" or "off"
+cursor_blink = system
+
+# "block", "underline" or "ibeam"
+cursor_shape = block
+
+# $BROWSER is used by default if set, with xdg-open as a fallback
+#browser = xdg-open
+
+# set size hints for the window
+#size_hints = false
+
+# Hide links that are no longer valid in url select overlay mode
+filter_unmatched_urls = true
+
+# emit escape sequences for extra modified keys
+#modify_other_keys = false
+
+# one dark
+[colors]
+
+# special
+foreground      = #abb2bf
+foreground_bold = #abb2bf
+cursor          = #ffffff
+background = rgba(0,0,0,0.70)
+
+# black
+color0  = #282c34
+color8  = #5c6370
+
+# red
+color1  = #e06c75
+color9  = #be5046
+
+# green
+color2  = #98c379
+color10 = #7a9f60
+
+# yellow
+color3  = #e5c07b
+color11 = #d19a66
+
+# blue
+color4  = #61afef
+color12 = #3b84c0
+
+# magenta
+color5  = #c678dd
+color13 = #9a52af
+
+# cyan
+color6  = #56b6c2
+color14 = #3c909b
+
+# white
+color7  = #abb2bf
+color15 = #828997
+
+vim: ft=dosini cms=#%s
+
+# old termite colors
+
+# [colors]
+# #cursor = #dcdccc
+# #cursor_foreground = #dcdccc
+# foreground = #dcdccc
+# foreground_bold = #ffffff
+# background = rgba(0,0,0,0.70)
+#
+# # 20% background transparency (requires a compositor)
+# #background = rgba(63, 63, 63, 0.8)
+#
+# # if unset, will reverse foreground and background
+# highlight = #2f2f2f
+#
+# # colors from color0 to color254 can be set
+# color0 = #3f3f3f
+# color1 = #705050
+# color2 = #60b48a
+# color3 = #dfaf8f
+# color4 = #506070
+# color5 = #dc8cc3
+# color6 = #8cd0d3
+# color7 = #dcdccc
+# color8 = #709080
+# color9 = #dca3a3
+# color10 = #c3bf9f
+# color11 = #f0dfaf
+# color12 = #94bff3
+# color13 = #ec93d3
+# color14 = #93e0e3
+# color15 = #ffffff
+
+[hints]
+#font = Monospace 12
+#foreground = #dcdccc
+#background = #3f3f3f
+#active_foreground = #e68080
+#active_background = #3f3f3f
+#padding = 2
+#border = #3f3f3f
+#border_width = 0.5
+#roundness = 2.0
+
+# vim: ft=dosini cms=#%s

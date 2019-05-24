@@ -1,0 +1,8 @@
+The configuration 'editor.suggestSelection' will be set to 'first' since the default value 'recentlyUsed' may cause you to not see IntelliCode completions.
+You can configure this behavior with the setting 'vsintellicode.modify.editor.suggestSelection'.
+Acquiring model 'intellisense-members' for javascript
+Querying IntelliCode service for available models.
+The configuration 'editor.suggestSelection' has been set to 'first'.
+Downloading model.
+Starting download of https://cdsmprodstg.blob.core.windows.net/models-prod-output/Output_1A3F919CD5B7725108B03C349630A1C82B03_0F0BA3C08C954A17AD992F382AE21E98?sv=2018-03-28&sr=b&sig=1Ra0VWnaHpxNShMj%2BPgNcTzFYGvci6Frzw1%2BvJrUP2c%3D&se=2019-05-24T18%3A32%3A21Z&sp=r
+Download complete.

@@ -1,0 +1,24 @@
+[2019-05-24 12:25:19.174] [exthost] [info] extension host started
+[2019-05-24 12:25:19.190] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"activationEvent":"*"}
+[2019-05-24 12:25:19.190] [exthost] [info] ExtensionService#loadCommonJSModule /opt/visual-studio-code/resources/app/extensions/debug-auto-launch/dist/extension
+[2019-05-24 12:25:19.203] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"activationEvent":"*"}
+[2019-05-24 12:25:19.203] [exthost] [info] ExtensionService#loadCommonJSModule /opt/visual-studio-code/resources/app/extensions/emmet/dist/extension
+[2019-05-24 12:25:19.224] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"activationEvent":"*"}
+[2019-05-24 12:25:19.224] [exthost] [info] ExtensionService#loadCommonJSModule /opt/visual-studio-code/resources/app/extensions/git/dist/main
+[2019-05-24 12:25:19.313] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"activationEvent":"*"}
+[2019-05-24 12:25:19.313] [exthost] [info] ExtensionService#loadCommonJSModule /opt/visual-studio-code/resources/app/extensions/merge-conflict/dist/extension
+[2019-05-24 12:25:19.319] [exthost] [info] ExtensionService#_doActivateExtension vscode-icons-team.vscode-icons {"startup":true,"activationEvent":"*"}
+[2019-05-24 12:25:19.319] [exthost] [info] ExtensionService#loadCommonJSModule /home/willmckinnon/.vscode/extensions/vscode-icons-team.vscode-icons-8.6.0/out/src/
+[2019-05-24 12:25:19.393] [exthost] [info] eager extensions activated
+[2019-05-24 12:25:41.942] [exthost] [info] extension host started
+[2019-05-24 12:25:41.958] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"activationEvent":"*"}
+[2019-05-24 12:25:41.958] [exthost] [info] ExtensionService#loadCommonJSModule /opt/visual-studio-code/resources/app/extensions/debug-auto-launch/dist/extension
+[2019-05-24 12:25:41.962] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"activationEvent":"*"}
+[2019-05-24 12:25:41.962] [exthost] [info] ExtensionService#loadCommonJSModule /opt/visual-studio-code/resources/app/extensions/emmet/dist/extension
+[2019-05-24 12:25:41.975] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"activationEvent":"*"}
+[2019-05-24 12:25:41.975] [exthost] [info] ExtensionService#loadCommonJSModule /opt/visual-studio-code/resources/app/extensions/git/dist/main
+[2019-05-24 12:25:42.057] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"activationEvent":"*"}
+[2019-05-24 12:25:42.057] [exthost] [info] ExtensionService#loadCommonJSModule /opt/visual-studio-code/resources/app/extensions/merge-conflict/dist/extension
+[2019-05-24 12:25:42.062] [exthost] [info] ExtensionService#_doActivateExtension vscode-icons-team.vscode-icons {"startup":true,"activationEvent":"*"}
+[2019-05-24 12:25:42.062] [exthost] [info] ExtensionService#loadCommonJSModule /home/willmckinnon/.vscode/extensions/vscode-icons-team.vscode-icons-8.6.0/out/src/
+[2019-05-24 12:25:42.116] [exthost] [info] eager extensions activated

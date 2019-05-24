@@ -1,0 +1,128 @@
+{
+	"name": "vscodeintellicode",
+	"displayName": "Visual Studio IntelliCode",
+	"description": "AI-assisted development",
+	"version": "1.1.6",
+	"publisher": "VisualStudioExptTeam",
+	"author": {
+		"name": "Microsoft"
+	},
+	"engines": {
+		"vscode": "^1.29.1"
+	},
+	"repository": {
+		"url": "https://github.com/MicrosoftDocs/intellicode"
+	},
+	"bugs": {
+		"url": "https://go.microsoft.com/fwlink/?linkid=2005855"
+	},
+	"icon": "images/icon.png",
+	"categories": [
+		"Other"
+	],
+	"aiKey": "AIF-d9b70cd4-b9f9-4d70-929b-a071c400b217",
+	"activationEvents": [
+		"onLanguage:python",
+		"onLanguage:typescript",
+		"onLanguage:typescriptreact",
+		"onLanguage:javascript",
+		"onLanguage:javascriptreact",
+		"onLanguage:java"
+	],
+	"main": "./dist/intellicode",
+	"contributes": {
+		"configuration": {
+			"type": "object",
+			"title": "Visual Studio IntelliCode",
+			"properties": {
+				"vsintellicode.python.completionsEnabled": {
+					"type": "boolean",
+					"default": true,
+					"description": "Enable Visual Studio IntelliCode completions for Python"
+				},
+				"vsintellicode.java.completionsEnabled": {
+					"type": "boolean",
+					"default": true,
+					"description": "Enable Visual Studio IntelliCode completions for Java"
+				},
+				"vsintellicode.typescript.completionsEnabled": {
+					"type": "boolean",
+					"default": true,
+					"description": "Enable Visual Studio IntelliCode completions for TypeScript and JavaScript"
+				},
+				"vsintellicode.modify.editor.suggestSelection": {
+					"type": "string",
+					"default": "enabled",
+					"markdownDescription": "Control whether Visual Studio IntelliCode will modify `editor.suggestSelection` if it is set to a value (`recentlyUsed`) that will result in IntelliCode suggested completion items not being visible.",
+					"enum": [
+						"enabled",
+						"disabled",
+						"automaticallyOverrodeDefaultValue",
+						"choseToUpdateConfiguration"
+					],
+					"enumDescriptions": [
+						"Allows IntelliCode to modify the editor.suggestSelection setting on your behalf.",
+						"You've explicitly opted out of having this configuration controlled by IntelliCode.",
+						"(DO NOT SET THIS MANUALLY) IntelliCode will set this to record that configuration has been automatically modified to override a default value.",
+						"(DO NOT SET THIS MANUALLY) IntelliCode will set this to record that you've chosen to let IntelliCode change the configuration from a value that was explicitly set."
+					]
+				}
+			}
+		},
+		"typescriptServerPlugins": [
+			{
+				"name": "@vsintellicode/typescript-intellicode-plugin",
+				"languages": []
+			}
+		],
+		"javaExtensions": [
+			"dist/com.microsoft.jdtls.intellicode.core-0.3.13.jar"
+		]
+	},
+	"scripts": {
+		"copydependencies": "copy \"node_modules\\@vsintellicode\\vscode-intellicode-java\\server\\*.jar\" dist && copy \"node_modules\\@vsintellicode\\vscode-intellicode-python\\build\\IntelliCodeForPython2.dll\" dist && copy \"node_modules\\@vsintellicode\\vscode-intellicode-python\\build\\IntelliCodeForPython.dll\" dist",
+		"vscode:prepublish": "webpack --mode production && npm run copydependencies",
+		"compile": "tsc -p ./",
+		"watch": "webpack --mode development --watch --info-verbosity verbose",
+		"webpack": "webpack --mode development && npm run copydependencies",
+		"postinstall": "node ./node_modules/vscode/bin/install",
+		"test": "npm run compile && node ./node_modules/vscode/bin/test"
+	},
+	"devDependencies": {
+		"@types/chai": "^4.1.7",
+		"@types/mocha": "^2.2.42",
+		"@types/node": "^7.0.43",
+		"@types/request": "^2.48.1",
+		"@types/semver": "^5.5.0",
+		"@types/sinon": "^7.0.2",
+		"@types/sinon-chai": "^3.2.2",
+		"chai": "^4.2.0",
+		"mocha": "^5.2.0",
+		"sinon": "^7.2.2",
+		"sinon-chai": "^3.3.0",
+		"ts-loader": "^5.3.3",
+		"tslint": "^5.8.0",
+		"typescript": "^2.6.1",
+		"vscode": "^1.1.33",
+		"webpack": "^4.29.6",
+		"webpack-cli": "^3.2.3"
+	},
+	"dependencies": {
+		"@vsintellicode/http-client": "0.0.2-SNAPSHOT.201902052314",
+		"@vsintellicode/typescript-intellicode-plugin": "0.12.0",
+		"@vsintellicode/vscode-intellicode-api": "0.0.17-ci-master-2259868",
+		"@vsintellicode/vscode-intellicode-java": "0.3.13",
+		"@vsintellicode/vscode-intellicode-python": "0.0.30-ci-master-2522624",
+		"async-file": "2.0.2",
+		"request": "2.87.0",
+		"request-progress": "3.0.0",
+		"semver": "5.5.0",
+		"vsce": "^1.59.0",
+		"vscode-extension-telemetry": "0.1.0"
+	},
+	"__metadata": {
+		"id": "876e8f93-74d0-4f4f-91b7-34a09f19f444",
+		"publisherId": "e8db1608-52e8-4d8d-92a6-779c5db302a9",
+		"publisherDisplayName": "Microsoft"
+	}
+}
