@@ -34,3 +34,6 @@ Collection of Dotfiles for the Lovely Members of r/UnixPorn
 
 ### Generic Theming ###
 - Terminal / VSCode Font: [Source Code Pro](https://www.fontsquirrel.com/fonts/source-code-pro)
+
+### To Add ###
+- VSCode dotfiles (workbench.main.css and settings.json)
