@@ -20,7 +20,7 @@ Collection of Dotfiles for the Lovely Members of r/UnixPorn
   - `git clone https://github.com/powerline/fonts.git$ cd fonts$ ./install.sh`
   - set font
 - Change theme to agnoster `open ~/.zshrcSet ZSH_THEME="agnoster" and save the file`
-- **Install Plugins** (Note That ~/.zshrc edits are in repo)
+- Install Plugins (Note That ~/.zshrc edits are in repo)
   - Syntax Hilighting
     - `git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting`
     - Edit `~/.zshrc`, add `zsh-syntax-highlighting` to the plugins section
