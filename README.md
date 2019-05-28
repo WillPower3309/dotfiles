@@ -2,6 +2,7 @@
 Collection of Dotfiles for the Lovely Members of r/UnixPorn
 
 ## Details ##
+- **OS**: Arch Linux
 - **DE**: KDE Plasma
 - **WM**: i3-gaps
 - **Theme**: Arc Dark
