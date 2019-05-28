@@ -30,6 +30,3 @@ Collection of Dotfiles for the Lovely Members of r/UnixPorn
     - Edit `~/.zshrc`, add `zsh-autosuggestions` to the plugins section
     - Reread config `source ~/.zshrc`
 - [More Theming Info](https://www.freecodecamp.org/news/jazz-up-your-zsh-terminal-in-seven-steps-a-visual-guide-e81a8fd59a38/)
-
-### Surface Device Linux Support ###
-- https://aur.archlinux.org/linux-firmware-full-surface.git
