@@ -20,13 +20,13 @@ Collection of Dotfiles for the Lovely Members of r/UnixPorn
   - `git clone https://github.com/powerline/fonts.git$ cd fonts$ ./install.sh`
   - set font
 - Change theme to agnoster `open ~/.zshrcSet ZSH_THEME="agnoster" and save the file`
-**Install Plugins** (Note That ~/.zshrc edits are in repo)
-- Syntax Hilighting
-  - `git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting`
-  - Edit `~/.zshrc`, add `zsh-syntax-highlighting` to the plugins section
-  - Reread config `source ~/.zshrc`
-- Autosuggestion
-  - `git clone https://github.com/zsh-users/zsh-autosuggestions $ZSH_CUSTOM/plugins/zsh-autosuggestions`
-  - Edit `~/.zshrc`, add `zsh-autosuggestions` to the plugins section
-  - Reread config `source ~/.zshrc`
+- **Install Plugins** (Note That ~/.zshrc edits are in repo)
+  - Syntax Hilighting
+    - `git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting`
+    - Edit `~/.zshrc`, add `zsh-syntax-highlighting` to the plugins section
+    - Reread config `source ~/.zshrc`
+  - Autosuggestion
+    - `git clone https://github.com/zsh-users/zsh-autosuggestions $ZSH_CUSTOM/plugins/zsh-autosuggestions`
+    - Edit `~/.zshrc`, add `zsh-autosuggestions` to the plugins section
+    - Reread config `source ~/.zshrc`
 - [More Theming Info](https://www.freecodecamp.org/news/jazz-up-your-zsh-terminal-in-seven-steps-a-visual-guide-e81a8fd59a38/)
