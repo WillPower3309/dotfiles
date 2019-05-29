@@ -1,9 +1,0 @@
-{
-    "workbench.activityBar.visible": false,
-    "editor.tabSize": 2,
-    "workbench.statusBar.visible": false,
-    "workbench.startupEditor": "newUntitledFile",
-    "workbench.iconTheme": "vscode-icons",
-    "editor.suggestSelection": "first",
-    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue"
-}

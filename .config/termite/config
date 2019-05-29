@@ -7,9 +7,7 @@ allow_bold = true
 dynamic_title = true
 urgent_on_bell = true
 clickable_url = true
-font = Noto Emoji Mono 11
-font = Noto Sans Mono 11
-font = Monospace 11
+font = Source Code Pro
 scrollback_lines = 10000
 search_wrap = true
 #icon_name = terminal
@@ -40,7 +38,7 @@ filter_unmatched_urls = true
 foreground      = #abb2bf
 foreground_bold = #abb2bf
 cursor          = #ffffff
-background = rgba(0,0,0,0.70)
+background = rgba(0,0,0,0.6)
 
 # black
 color0  = #282c34

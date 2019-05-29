@@ -1,0 +1,61 @@
+.composite-title, .composite-title, .vs-dark .monaco-workbench>.activitybar>.content {
+  background-color: rgba(40, 44, 52, 1) !important;
+}
+
+.tabs-container, .tab, .tab.active, .title-actions, .tablist, .tabs-container, .tabs, .composite.title {
+  background-color: rgba(40, 44, 52, 1) !important;
+}
+
+.tab.active, .tab {
+  border-right: 0px !important;
+  border-left: 0px !important;
+}
+
+.tab.active {
+  border-bottom: 2px solid #32CDFE !important;
+}
+
+.title.tabs.active, .tabs, .tablist, .tabs-container, .tab, .composite-title, .composite.title {
+  height: 40px !important;
+}
+
+.vs-dark .monaco-workbench>.part.editor>.content>.one-editor-silo>.container>.title.tabs:before {
+  border: 0px !important;
+}
+
+.title.tabs::before {
+  border: 0px !important;
+}
+
+.monaco-workbench>.part>.composite.title {
+  align-items: center;
+}
+
+.part.editor.monaco-editor-background, .part.panel.monaco-editor-background {
+  box-shadow: -11px 2px 25px -7px rgba(14,15,18,1);
+}
+
+.monaco-split-view .vertical {
+  background-color: rgba(40, 42, 52, 0.7);
+}
+
+span[title="Explorer"], .vs-dark .monaco-workbench>.part>.composite.title>.title-label span {
+  color: white;
+}
+
+/*icons*/
+.action-item .action-label.explore {
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='32' height='32'%3E%3Cpath d='M17.705 8H9s-2 .078-2 2v15s0 2 2 2l11-.004C22 27 22 25 22 25V13.509L17.705 8zM16 10v5h4v10H9V10h7zm5.509-6h-8.493S11 4.016 10.985 6H19v.454L22.931 11H24v12c2 0 2-1.995 2-1.995V9.648L21.509 4z' fill='#00BCD4'/%3E%3C/svg%3E") !important;
+}
+
+.action-item .action-label.search {
+ background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='32' height='32'%3E%3Cpath d='M19.23 4.095c-4.842 0-8.769 3.928-8.769 8.771 0 1.781.539 3.43 1.449 4.815 0 0-5.482 5.455-7.102 7.102-1.621 1.646 1.001 4.071 2.602 2.409 1.602-1.659 7.006-7.005 7.006-7.005a8.726 8.726 0 0 0 4.814 1.45 8.773 8.773 0 0 0 8.772-8.771c.001-4.844-3.927-8.771-8.772-8.771zm0 15.035a6.265 6.265 0 1 1 0-12.529 6.264 6.264 0 1 1 0 12.529z' fill='#FFEB3B'/%3E%3C/svg%3E") !important; 
+}
+
+.action-item .action-label.git {
+ background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='32' height='32'%3E%3Cpath d='M27.459 14.902L17.02 4.463a1.517 1.517 0 0 0-1.089-.452c-.417 0-.793.157-1.089.452L12.594 6.71l2.549 2.549c.249-.112.522-.177.813-.177 1.106 0 2.002.896 2.002 2.002 0 .291-.064.565-.176.814l2.311 2.336c.25-.111.633-.234.923-.234 1.106 0 2 .911 2 2.016s-.894 1.969-2 1.969C19.911 17.984 19 17.234 19 16c0-.28.016-.462.119-.704l-2.373-2.374-.023.007v6.274A2.02 2.02 0 0 1 18 21.078c0 1.105-.878 2.016-1.984 2.016a2.053 2.053 0 0 1-2.031-2.031c0-.846.535-1.564 1.28-1.857l.001-6.25a1.996 1.996 0 0 1-1.147-2.659L11.564 7.74l-7.115 7.114a1.542 1.542 0 0 0 .001 2.178L14.89 27.55c.296.295.671.45 1.089.45.415 0 .796-.159 1.089-.45l10.391-10.471a1.541 1.541 0 0 0 0-2.177z' fill='#F44336'/%3E%3C/svg%3E") !important; 
+}
+
+.action-item .action-label.debug {
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='32' height='32' viewBox='0 0 32 32'%3E%3Cstyle%3E.icon-canvas-transparent{opacity:0;fill:%23f6f6f6}.icon-white{fill:#9C27B0}%3C/style%3E%3Cpath class='icon-canvas-transparent' d='M32 32H0V0h32v32z' id='canvas'/%3E%3Cpath class='icon-white' d='M17 19.488v4.248c0 .462.09 1.264-.373 1.264H15v-1h1v-3.19l-.173-.18c-1.453 1.205-3.528 1.248-4.67.108C10 19.578 10.118 18 11.376 16H8v1H7v-1.627C7 14.91 7.802 15 8.264 15h4.105L17 19.488zM14 9h-1V8h1.955c.46 0 1.045.22 1.045.682v3.345l.736.875c.18-.973.89-1.71 1.914-1.71.143 0 .35.014.35.04V9h1v2.618c0 .117.265.382.382.382H23v1h-2.233c.027 0 .042.154.042.298 0 1.025-.74 1.753-1.712 1.932l.875.77h3.346c.462 0 .682.583.682 1.045V19h-1v-1h-2.52L14 11.698V9zm2-5C9.373 4 4 9.373 4 16s5.373 12 12 12 12-5.373 12-12S22.627 4 16 4zm10 12c0 2.397-.85 4.6-2.262 6.324L9.676 8.262A9.95 9.95 0 0 1 16 6c5.514 0 10 4.486 10 10zM6 16c0-2.398.85-4.6 2.262-6.324L22.324 23.74A9.961 9.961 0 0 1 16 26c-5.514 0-10-4.486-10-10z' id='iconBg'/%3E%3C/svg%3E") !important;
+}

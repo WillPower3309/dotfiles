@@ -1,0 +1,16 @@
+configuration {
+  show-icons: true;
+  color-window: #CC131920;
+  color-normal: #00131920;
+  color-urgent: #00131920;
+  color-active: #00131920;
+  width: 1920;
+  lines: 20;
+  padding: 50;
+  line-margin: 5;
+  eh: 1;
+  sidebar-mode: true;
+  separator-style: none;
+  hide-scrollbar: true;
+  location: 0;
+}

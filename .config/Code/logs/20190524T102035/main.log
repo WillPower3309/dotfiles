@@ -1,6 +1,0 @@
-[2019-05-24 10:20:35.901] [main] [info] update#setState idle
-[2019-05-24 10:21:05.921] [main] [info] update#setState checking for updates
-[2019-05-24 10:21:06.008] [main] [info] update#setState idle
-[2019-05-24 10:58:33.440] [main] [error] [uncaught exception in main]: Error: read ECONNRESET
-[2019-05-24 10:58:33.441] [main] [error] Error: read ECONNRESET
-    at Pipe.onread (net.js:657:25)

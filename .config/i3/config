@@ -1,3 +1,28 @@
+# >>> Plasma Integration <<<
+
+# Try to kill the wallpaper set by Plasma (it takes up the entire workspace
+# and hides everythiing)
+exec --no-startup-id wmctrl -c Plasma
+for_window [title="Desktop — Plasma"] kill; floating enable; border none
+
+# Avoid tiling popups, dropdown windows from plasma
+for_window [class="plasmashell"] floating enable
+for_window [class="Plasma"] floating enable
+for_window [class="krunner"] floating enable
+for_window [class="Kmix"] floating enable
+for_window [class="Klipper"] floating enable
+for_window [class="Plasmoidviewer"] floating enable
+
+# >>> Window Rules <<<
+
+# >>> Avoid tiling for non-Plasma stuff <<<
+for_window [window_role="pop-up"] floating enable
+for_window [window_role="bubble"] floating enable
+for_window [window_role="task_dialog"] floating enable
+for_window [window_role="Preferences"] floating enable
+for_window [window_role="About"] floating enable 
+for_window [window_type="dialog"] floating enable
+for_window [window_type="menu"] floating enable
 
 #****************************************************************************
 
@@ -116,7 +141,11 @@ bindsym $mod+Shift+8 move container to workspace $ws8
 bindsym $mod+Shift+9 move container to workspace $ws9
 bindsym $mod+Shift+0 move container to workspace $ws10
 
-# Media Controls
+# Open specific applications in floating mode
+for_window [class="(?i)virtualbox"] floating enable border normal
+
+# switch to workspace with urgent window automatically
+for_window [urgent=latest] focus
 
 # reload the configuration file
 bindsym $mod+Shift+c reload
@@ -166,7 +195,7 @@ client.focused_inactive $inactive-bg-color $inactive-bg-color $inactive-text-col
 client.urgent $urgent-bg-color $urgent-bg-color $text-color #00ff00
 
 # rofi
-bindsym $mod+d exec rofi -show run
+bindsym $mod+d exec rofi -show drun
 
 #*********************************************************************************
 
@@ -174,9 +203,9 @@ bindsym $mod+d exec rofi -show run
 
 #********************************************************************************
 
-exec_always --no-startup-id ~/.config/polybar/launch.sh
-exec --no-startup-id "compton --backend glx --blur-method kawase  --blur-strength 20 --blur-background"
-exec --no-startup-id sh ~/.fehbg
+exec_always --no-startup-id "feh --bg-scale ~/Documents/background.png"
+exec --no-startup-id compton --config ~/.config/compton/compton.conf
+exec --no-startup-id m 26/10 4
 
 #********************************************************************************
 
@@ -214,10 +243,3 @@ bindsym $mod+i border normal
 # Set inner/outer gaps
 gaps inner 8
 gaps outer -2
-
-# Smart gaps (gaps used if only more than one container on the workspace)
-smart_gaps on
-
-# Smart borders (draw borders around container only if it is not the only container on this workspace)
-# on|no_gaps (on=always activate and no_gaps=only activate if the gap size to the edge of the screen is 0)
-smart_borders on
