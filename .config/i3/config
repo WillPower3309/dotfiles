@@ -243,3 +243,6 @@ bindsym $mod+i border normal
 # Set inner/outer gaps
 gaps inner 8
 gaps outer -2
+
+# Activate smart borders (always)
+smart_borders on
