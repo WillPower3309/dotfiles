@@ -15,6 +15,8 @@ Collection of Dotfiles for the Lovely Members of r/UnixPorn
 - [Set Up KDE For i3](https://medium.com/@vishnu_mad/using-i3-window-manager-with-kde-plasma-c2ac70594d8)
 - [Install oh-my-zsh](https://aur.archlinux.org/packages/oh-my-zsh-git/)
 - [Source Code Pro Font](https://www.fontsquirrel.com/fonts/source-code-pro)
+- [Flashfocus](https://github.com/fennerm/flashfocus)
+- [Unimatrix](https://github.com/will8211/unimatrix) (Not required but looks dope!)
 
 ### Theming OhMyZsh ###
 - Install Powerline Fonts
