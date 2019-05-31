@@ -197,15 +197,19 @@ client.urgent $urgent-bg-color $urgent-bg-color $text-color #00ff00
 # rofi
 bindsym $mod+d exec rofi -show drun
 
+#flash current window
+bindsym $mod+n exec --no-startup-id flash_window
+
 #*********************************************************************************
 
 #	Startup
 
 #********************************************************************************
 
-exec_always --no-startup-id "feh --bg-scale ~/Documents/background.png"
+exec --no-startup-id feh --bg-scale ~/Downloads/background.JPG
 exec --no-startup-id compton --config ~/.config/compton/compton.conf
 exec --no-startup-id m 26/10 4
+exec_always --no-startup-id flashfocus
 
 #********************************************************************************
 
@@ -224,7 +228,7 @@ client.placeholder      #000000 #0c0c0c #ffffff #000000   #0c0c0c
 client.background       #ffffff
 
 # Configure border style <normal|1pixel|pixel xx|none|pixel>
-new_window pixel 1
+new_window none
 new_float normal
 
 # Hide borders
