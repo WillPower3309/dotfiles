@@ -37,6 +37,7 @@ Collection of Dotfiles for the Lovely Members of r/UnixPorn
 ### Generic Theming ###
 - Terminal / VSCode Font: [Source Code Pro](https://www.fontsquirrel.com/fonts/source-code-pro)
 - System, Firefox Font: [San Francisco](https://aur.archlinux.org/packages/otf-san-francisco/)
+- [Make Fonts Pretty](https://www.reddit.com/r/archlinux/comments/5r5ep8/make_your_arch_fonts_beautiful_easily/)
 
 ### Note ###
 - VSCode dotfiles settings.json goes in folder "User" in vscode config folder
