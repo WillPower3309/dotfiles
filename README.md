@@ -9,12 +9,13 @@ Collection of Dotfiles for the Lovely Members of r/UnixPorn
 - **Icons**: [Papirus-Dark](https://www.archlinux.org/packages/community/any/papirus-icon-theme/)
 - **Shell**: ZSH
 - **Terminal**: Termite
-- **Compositor**: Compton (tryone)
+- **Compositor**: [Compton (tryone)](https://aur.archlinux.org/packages/compton-tryone-git/)
 
 ## Requirements ##
 - [Set Up KDE For i3](https://medium.com/@vishnu_mad/using-i3-window-manager-with-kde-plasma-c2ac70594d8)
 - [Install oh-my-zsh](https://aur.archlinux.org/packages/oh-my-zsh-git/)
 - [Source Code Pro Font](https://www.fontsquirrel.com/fonts/source-code-pro)
+- [San Francisco Font](https://aur.archlinux.org/packages/otf-san-francisco/)
 - [Flashfocus](https://github.com/fennerm/flashfocus)
 - [Unimatrix](https://github.com/will8211/unimatrix) (Not required but looks dope!)
 
@@ -36,6 +37,9 @@ Collection of Dotfiles for the Lovely Members of r/UnixPorn
 
 ### Generic Theming ###
 - Terminal / VSCode Font: [Source Code Pro](https://www.fontsquirrel.com/fonts/source-code-pro)
+- System, Firefox Font: [San Francisco](https://aur.archlinux.org/packages/otf-san-francisco/)
+- [Make Fonts Pretty](https://www.reddit.com/r/archlinux/comments/5r5ep8/make_your_arch_fonts_beautiful_easily/)
 
 ### Note ###
 - VSCode dotfiles settings.json goes in folder "User" in vscode config folder
+- Use Breeze Dark as look and feel theme to get transparent left click menus
