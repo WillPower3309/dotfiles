@@ -9,7 +9,7 @@ Collection of Dotfiles for the Lovely Members of r/UnixPorn
 - **Icons**: [Papirus-Dark](https://www.archlinux.org/packages/community/any/papirus-icon-theme/)
 - **Shell**: ZSH
 - **Terminal**: Termite
-- **Compositor**: Compton (tryone)
+- **Compositor**: [Compton (tryone)](https://aur.archlinux.org/packages/compton-tryone-git/)
 
 ## Requirements ##
 - [Set Up KDE For i3](https://medium.com/@vishnu_mad/using-i3-window-manager-with-kde-plasma-c2ac70594d8)
