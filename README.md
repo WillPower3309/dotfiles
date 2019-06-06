@@ -42,3 +42,4 @@ Collection of Dotfiles for the Lovely Members of r/UnixPorn
 
 ### Note ###
 - VSCode dotfiles settings.json goes in folder "User" in vscode config folder
+- Use Breeze Dark as look and feel theme to get transparent left click menus
