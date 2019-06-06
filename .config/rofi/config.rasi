@@ -1,16 +1,80 @@
 configuration {
-  show-icons: true;
-  color-window: #CC131920;
-  color-normal: #00131920;
-  color-urgent: #00131920;
-  color-active: #00131920;
-  width: 1920;
-  lines: 20;
-  padding: 50;
-  line-margin: 5;
-  eh: 1;
-  sidebar-mode: true;
-  separator-style: none;
-  hide-scrollbar: true;
-  location: 0;
+    display-drun:                   "Apps";
+    display-window:                 "Window";
+    show-icons:true;
+}
+ 
+* {
+    lines: 15;
+    columns: 1;
+    background-color: #B3000000;
+    border-color: #00000000;
+    text-color: #AFAFAF;
+    font: "SF Pro Text 16";
+}
+ 
+#window {
+    border: 0;
+    border-radius: 4px;
+    padding: 40;
+    width: 30%;
+    height: 50%;
+}
+ 
+#mainbox {
+    background-color: #00000000;
+    children: [inputbar, listview];
+    spacing: 10px;
+    /*margin: 20%;*/
+    padding: 30px 0;
+    border: 1px;
+    border-color: @base0D;
+}
+ 
+ 
+#listview {
+    background-color: #00000000;
+    fixed-height: 0;
+    border: 0px;
+    spacing: 5px;
+    scrollbar: false;
+    padding: 10px 10px 0px;
+}
+ 
+#element {
+    background-color: #00000000;
+    border: 0;
+    border-radius: 15px;
+    padding: 3 0  3 4 ;
+}
+ 
+#element selected {
+    background-color: #00B2FF;
+    text-color: #FFFFFF;
+}
+ 
+ 
+#inputbar {
+    children:   [ prompt,textbox-prompt-colon,entry,case-indicator ];
+    background-color: #00000000;
+}
+ 
+#case-indicator {
+    background-color: #00000000;
+    spacing:    0;
+}
+#entry {
+    background-color: #00000000;
+    spacing:    0;
+}
+#prompt {
+    background-color: #00000000;
+    spacing:    0;
+}
+ 
+#textbox-prompt-colon {
+    background-color: #00000000;
+    expand:     false;
+    str:        ":";
+    margin:     0px 0.3em 0em 0em ;
 }

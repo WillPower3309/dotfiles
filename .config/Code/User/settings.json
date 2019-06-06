@@ -46,5 +46,6 @@
 	"vscode_custom_css.policy": true,
 
 	"editor.suggestSelection": "first",
-	"vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue"
+	"vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+	"typescript.updateImportsOnFileMove.enabled": "always"
 }

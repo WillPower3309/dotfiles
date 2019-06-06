@@ -41,36 +41,36 @@ cursor          = #ffffff
 background = rgba(0,0,0,0.6)
 
 # black
-color0  = #282c34
-color8  = #5c6370
+color0  = #282A2E
+color8  = #373B41
 
 # red
-color1  = #e06c75
-color9  = #be5046
+color1  = #A54242
+color9  = #CC6666
 
 # green
-color2  = #98c379
-color10 = #7a9f60
+color2  = #8C9440
+color10 = #b5bd68
 
 # yellow
-color3  = #e5c07b
-color11 = #d19a66
+color3  = #DE935F
+color11 = #f0c674
 
 # blue
-color4  = #61afef
-color12 = #3b84c0
+color4  = #5F819D
+color12 = #81A2BE
 
 # magenta
-color5  = #c678dd
-color13 = #9a52af
+color5  = #85678F
+color13 = #b294bb
 
 # cyan
-color6  = #56b6c2
-color14 = #3c909b
+color6  = #5E8D87
+color14 = #8abeb7
 
 # white
-color7  = #abb2bf
-color15 = #828997
+color7  = #707880
+color15 = #C5C8C6
 
 vim: ft=dosini cms=#%s
 

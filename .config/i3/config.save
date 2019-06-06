@@ -193,7 +193,7 @@ bindsym $mod+n exec --no-startup-id flash_window
 
 #********************************************************************************
 
-exec --no-startup-id feh --bg-scale ~/Downloads/background.JPG
+exec --no-startup-id feh --bg-scale ~/Documents/background.JPG
 exec --no-startup-id compton --config ~/.config/compton/compton.conf
 exec --no-startup-id m 26/10 4
 exec_always --no-startup-id flashfocus
