@@ -42,3 +42,5 @@ Collection of Dotfiles for the Lovely Members of r/UnixPorn
 
 ### Note ###
 - VSCode dotfiles settings.json goes in folder "User" in vscode config folder
+- Adding Surface Pro 6 bluetooth:
+`sudo wget https://github.com/kvalo/ath10k-firmware/raw/master/QCA6174/hw3.0/4.4.1/firmware-6.bin_WLAN.RM.4.4.1-00051-QCARMSWP-1 -O /lib/firmware/ath10k/QCA6174/hw3.0/firmware-6.bin`
