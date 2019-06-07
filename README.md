@@ -18,8 +18,7 @@ Collection of Dotfiles for the Lovely Members of r/UnixPorn
 - [San Francisco Font](https://aur.archlinux.org/packages/otf-san-francisco/)
 - [Flashfocus](https://github.com/fennerm/flashfocus)
 - [Unimatrix](https://github.com/will8211/unimatrix) (Not required but looks dope!)
-- Install nitrogen (to set i3 background)
-  - if missing theme error is encountered: `sudo pacman -S gnome-themes-extra`
+- [feh](https://wiki.archlinux.org/index.php/feh) (To Set Background)
 
 ### Theming OhMyZsh ###
 - Install Powerline Fonts
@@ -45,3 +44,4 @@ Collection of Dotfiles for the Lovely Members of r/UnixPorn
 ### Note ###
 - VSCode dotfiles settings.json goes in folder "User" in vscode config folder
 - Use Breeze Dark as look and feel theme to get transparent left click menus
+- Must have splash screen set to "None", otherwise i3/feh will take a while to set wallpaper
