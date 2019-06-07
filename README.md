@@ -18,6 +18,8 @@ Collection of Dotfiles for the Lovely Members of r/UnixPorn
 - [San Francisco Font](https://aur.archlinux.org/packages/otf-san-francisco/)
 - [Flashfocus](https://github.com/fennerm/flashfocus)
 - [Unimatrix](https://github.com/will8211/unimatrix) (Not required but looks dope!)
+- Install nitrogen (to set i3 background)
+  - if missing theme error is encountered: `sudo pacman -S gnome-themes-extra`
 
 ### Theming OhMyZsh ###
 - Install Powerline Fonts
