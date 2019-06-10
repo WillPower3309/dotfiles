@@ -44,6 +44,7 @@ Collection of Dotfiles for the Lovely Members of r/UnixPorn
 
 ### Note ###
 - VSCode dotfiles settings.json goes in folder "User" in vscode config folder
+  - [How To Theme VSCode With Custom CSS](https://github.com/be5invis/vscode-custom-css)
 - Use Breeze Dark as KDE look and feel theme to get transparent right click menus
 - [Wallpaper](https://wallpaperhunt.net/wallpaper/under-the-horizon-144)
 - Must have splash screen set to "None" in KDE settings, otherwise i3/feh will take a long time to set wallpaper
