@@ -13,7 +13,7 @@ Collection of Dotfiles for the Lovely Members of r/UnixPorn
 - **Terminal**: Termite
 - **Compositor**: [Compton (tryone)](https://aur.archlinux.org/packages/compton-tryone-git/)
 
-## Requirements ##
+## Things to Do / Install ##
 - [Set Up KDE For i3](https://medium.com/@vishnu_mad/using-i3-window-manager-with-kde-plasma-c2ac70594d8)
 - [Install oh-my-zsh](https://aur.archlinux.org/packages/oh-my-zsh-git/)
 - [Source Code Pro Font](https://www.fontsquirrel.com/fonts/source-code-pro)
@@ -40,10 +40,10 @@ Collection of Dotfiles for the Lovely Members of r/UnixPorn
 
 ### Generic Theming ###
 - Terminal / VSCode Font: [Source Code Pro](https://www.fontsquirrel.com/fonts/source-code-pro)
-- System, Firefox Font: [San Francisco](https://aur.archlinux.org/packages/otf-san-francisco/)
-- [Make Fonts Pretty](https://www.reddit.com/r/archlinux/comments/5r5ep8/make_your_arch_fonts_beautiful_easily/)
+- System, Application Font: [San Francisco](https://aur.archlinux.org/packages/otf-san-francisco/)
 
 ### Note ###
 - VSCode dotfiles settings.json goes in folder "User" in vscode config folder
-- Use Breeze Dark as look and feel theme to get transparent left click menus
-- Must have splash screen set to "None", otherwise i3/feh will take a while to set wallpaper
+- Use Breeze Dark as KDE look and feel theme to get transparent right click menus
+- [Wallpaper](https://wallpaperhunt.net/wallpaper/under-the-horizon-144)
+- Must have splash screen set to "None" in KDE settings, otherwise i3/feh will take a long time to set wallpaper
