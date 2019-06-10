@@ -1,6 +1,8 @@
 # dotfiles
 Collection of Dotfiles for the Lovely Members of r/UnixPorn
 
+![](/screenshot.jpg "")
+
 ## Details ##
 - **OS**: Arch Linux
 - **DE**: KDE Plasma
