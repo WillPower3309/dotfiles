@@ -31,48 +31,46 @@ filter_unmatched_urls = true
 # emit escape sequences for extra modified keys
 #modify_other_keys = false
 
-# one dark
 [colors]
 
 # special
-foreground      = #abb2bf
-foreground_bold = #abb2bf
-cursor          = #ffffff
-background = rgba(0,0,0,0.6)
+foreground      = #c5c8c6
+foreground_bold = #c5c8c6
+cursor          = #c5c8c6
+background      = rgba(0,0,0,0.5)
 
 # black
-color0  = #282A2E
-color8  = #373B41
+color0  = #1d1f21
+color8  = #969896
 
 # red
-color1  = #A54242
-color9  = #CC6666
+color1  = #ff4a3d
+color9  = #ff4a3d
 
 # green
-color2  = #8C9440
-color10 = #b5bd68
+color2  = #46ea6c
+color10 = #46ea6c
 
 # yellow
-color3  = #DE935F
-color11 = #f0c674
+color3  = #fff83d
+color11 = #fff83d
 
 # blue
-color4  = #5F819D
-color12 = #81A2BE
+color4  = #00b2ff
+color12 = #00b2ff
 
 # magenta
-color5  = #85678F
-color13 = #b294bb
+color5  = #d753e2
+color13 = #d753e2
 
 # cyan
-color6  = #5E8D87
-color14 = #8abeb7
+color6  = #46dcea
+color14 = #46dcea
 
 # white
-color7  = #707880
-color15 = #C5C8C6
+color7  = #efefef
+color15 = #ffffff
 
-vim: ft=dosini cms=#%s
 
 # old termite colors
 

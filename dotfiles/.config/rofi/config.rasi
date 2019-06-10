@@ -7,9 +7,9 @@ configuration {
 * {
     lines: 15;
     columns: 1;
-    background-color: #B3000000;
+    background-color: #00000080;
     border-color: #00000000;
-    text-color: #AFAFAF;
+    text-color: #EFEFEF;
     font: "SF Pro Text 16";
 }
  
@@ -78,3 +78,4 @@ configuration {
     str:        ":";
     margin:     0px 0.3em 0em 0em ;
 }
+
