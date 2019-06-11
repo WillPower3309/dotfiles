@@ -24,10 +24,10 @@ Collection of Dotfiles for the Lovely Members of r/UnixPorn
 
 ### Theming OhMyZsh ###
 - Install Powerline Fonts
-  -`git clone https://github.com/powerline/fonts.git`
-  -`cd fonts`
-  -`./install.sh`
-  - set font
+  `git clone https://github.com/powerline/fonts.git`
+  `cd fonts`
+  `./install.sh`
+  set font
 - Change theme to agnoster
   -`open ~/.zshrc`
   - Set ZSH_THEME="agnoster" and save the file
