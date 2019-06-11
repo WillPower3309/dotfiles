@@ -54,6 +54,7 @@ Collection of Dotfiles for the Lovely Members of r/UnixPorn
 - Must have splash screen set to "None" in KDE settings, otherwise i3/feh will take a long time to set wallpaper
 
 ## Vim ##
+- Plugin Manager: [Vundle](https://aur.archlinux.org/packages/vundle/)
 
 ### Plugins: ###
 - [NerdTree (File Browser)](https://github.com/scrooloose/nerdtree)
