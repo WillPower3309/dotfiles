@@ -48,3 +48,9 @@ Collection of Dotfiles for the Lovely Members of r/UnixPorn
 - Use Breeze Dark as KDE look and feel theme to get transparent right click menus
 - [Wallpaper](https://wallpaperhunt.net/wallpaper/under-the-horizon-144)
 - Must have splash screen set to "None" in KDE settings, otherwise i3/feh will take a long time to set wallpaper
+
+## Vim ##
+
+### Plugins: ###
+- [NerdTree (File Browser)](https://github.com/scrooloose/nerdtree)
+- [Devicons (Adds icons to nerdtree browser)](https://github.com/ryanoasis/vim-devicons)
