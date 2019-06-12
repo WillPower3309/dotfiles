@@ -54,8 +54,7 @@ Collection of Dotfiles for the Lovely Members of r/UnixPorn
 - [Wallpaper](https://wallpaperhunt.net/wallpaper/under-the-horizon-144)
 - Must have splash screen set to "None" in KDE settings, otherwise i3/feh will take a long time to set wallpaper
 - Conky theme is set up to apear on a high DPI laptop display, may appear too large on 1920 x 1080 displays
-- To Make Applications appear nice on high DPI displays you may need to adjust their scale factor
-  - edit /usr/share/applications/APPLICATION_NAME.desktop or wherever the .desktop file is located and change the line with Exec= to: `Exec=APPLICATION_NAME --force-device-scale-factor=1.5 %U`
+- [Make Applications appear nice on high DPI displays](https://wiki.archlinux.org/index.php/HiDPI#Spotify)
 
 ## Vim ##
 - Plugin Manager: [Vundle](https://aur.archlinux.org/packages/vundle-git/)
