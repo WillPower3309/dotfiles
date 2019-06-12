@@ -16,6 +16,7 @@ Collection of Dotfiles for the Lovely Members of r/UnixPorn
 ## Things to Do / Install ##
 - [Set Up KDE For i3](https://medium.com/@vishnu_mad/using-i3-window-manager-with-kde-plasma-c2ac70594d8)
 - [Install oh-my-zsh](https://aur.archlinux.org/packages/oh-my-zsh-git/)
+- [Conky-Cairo](https://aur.archlinux.org/packages/conky-cairo/)
 - [Source Code Pro Font](https://www.fontsquirrel.com/fonts/source-code-pro)
 - [San Francisco Font](https://aur.archlinux.org/packages/otf-san-francisco/)
 - [Flashfocus](https://github.com/fennerm/flashfocus)
@@ -52,6 +53,7 @@ Collection of Dotfiles for the Lovely Members of r/UnixPorn
 - Use Breeze Dark as KDE look and feel theme to get transparent right click menus
 - [Wallpaper](https://wallpaperhunt.net/wallpaper/under-the-horizon-144)
 - Must have splash screen set to "None" in KDE settings, otherwise i3/feh will take a long time to set wallpaper
+- Conky theme is set up to apear on a high DPI laptop display, may appear too large on 1920 x 1080 displays
 
 ## Vim ##
 - Plugin Manager: [Vundle](https://aur.archlinux.org/packages/vundle-git/)
