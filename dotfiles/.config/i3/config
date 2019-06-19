@@ -196,6 +196,9 @@ bindsym $mod+n exec --no-startup-id flash_window
 exec --no-startup-id feh --bg-scale ~/Documents/background.JPG
 exec --no-startup-id compton --config ~/.config/compton/compton.conf
 exec --no-startup-id m 26/10 4
+exec --no-startup-id conky -c ~/.config/conky/conkyrc
+exec --no-startup-id latte-dock %u
+exec --no-startup-id redshift-gtk
 exec_always --no-startup-id flashfocus
 
 #********************************************************************************
@@ -230,7 +233,7 @@ bindsym $mod+i border normal
 #############################
 
 # Set inner/outer gaps
-gaps inner 10
+gaps inner 15
 gaps outer 5
 
 # Activate smart borders (always)

@@ -7,7 +7,7 @@ configuration {
 * {
     lines: 15;
     columns: 1;
-    background-color: #00000080;
+    background-color: #00000065;
     border-color: #00000000;
     text-color: #EFEFEF;
     font: "SF Pro Text 16";
@@ -49,8 +49,8 @@ configuration {
 }
  
 #element selected {
-    background-color: #00B2FF;
-    text-color: #FFFFFF;
+    background-color: #00a0e6;
+    text-color: #EFEFEF;
 }
  
  
