@@ -16,12 +16,14 @@ Collection of Dotfiles for the Lovely Members of r/UnixPorn
 ## Things to Do / Install ##
 - [Set Up KDE For i3](https://medium.com/@vishnu_mad/using-i3-window-manager-with-kde-plasma-c2ac70594d8)
 - [Install oh-my-zsh](https://aur.archlinux.org/packages/oh-my-zsh-git/)
+- [Install Latte Dock](https://store.kde.org/p/1169519)
 - [Conky-Cairo](https://aur.archlinux.org/packages/conky-cairo/)
 - [Source Code Pro Font](https://www.fontsquirrel.com/fonts/source-code-pro)
 - [San Francisco Font](https://aur.archlinux.org/packages/otf-san-francisco/)
 - [Flashfocus](https://github.com/fennerm/flashfocus)
 - [Unimatrix](https://github.com/will8211/unimatrix) (Not required but looks dope!)
 - [feh](https://wiki.archlinux.org/index.php/feh) (To Set Background)
+- [pipes](https://aur.archlinux.org/packages/bash-pipes/)
 - [redshift](https://wiki.archlinux.org/index.php/Redshift)
 
 ### Theming OhMyZsh ###
@@ -43,6 +45,19 @@ Collection of Dotfiles for the Lovely Members of r/UnixPorn
     - Edit `~/.zshrc`, add `zsh-autosuggestions` to the plugins section
     - Reread config `source ~/.zshrc`
 - [More Theming Info](https://www.freecodecamp.org/news/jazz-up-your-zsh-terminal-in-seven-steps-a-visual-guide-e81a8fd59a38/)
+
+### Latte Dock Setup ###
+**Top Panel:**
+- Mode: panel
+- Widgets (in order):
+  - Active Window Control
+  - Global Menu
+  - Spacer
+  - Digital Clock
+  - Spacer
+  - Application Icons (Drag icons from application launcher to panel to add)
+  - System Tray
+  - User Switcher
 
 ### Generic Theming ###
 - Terminal / VSCode Font: [Source Code Pro](https://www.fontsquirrel.com/fonts/source-code-pro)
