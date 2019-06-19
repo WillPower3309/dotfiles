@@ -22,6 +22,7 @@ Collection of Dotfiles for the Lovely Members of r/UnixPorn
 - [Flashfocus](https://github.com/fennerm/flashfocus)
 - [Unimatrix](https://github.com/will8211/unimatrix) (Not required but looks dope!)
 - [feh](https://wiki.archlinux.org/index.php/feh) (To Set Background)
+- [redshift](https://wiki.archlinux.org/index.php/Redshift)
 
 ### Theming OhMyZsh ###
 - Install Powerline Fonts
