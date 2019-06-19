@@ -16,17 +16,23 @@ Collection of Dotfiles for the Lovely Members of r/UnixPorn
 ## Things to Do / Install ##
 - [Set Up KDE For i3](https://medium.com/@vishnu_mad/using-i3-window-manager-with-kde-plasma-c2ac70594d8)
 - [Install oh-my-zsh](https://aur.archlinux.org/packages/oh-my-zsh-git/)
+- [Conky-Cairo](https://aur.archlinux.org/packages/conky-cairo/)
 - [Source Code Pro Font](https://www.fontsquirrel.com/fonts/source-code-pro)
 - [San Francisco Font](https://aur.archlinux.org/packages/otf-san-francisco/)
 - [Flashfocus](https://github.com/fennerm/flashfocus)
 - [Unimatrix](https://github.com/will8211/unimatrix) (Not required but looks dope!)
 - [feh](https://wiki.archlinux.org/index.php/feh) (To Set Background)
+- [redshift](https://wiki.archlinux.org/index.php/Redshift)
 
 ### Theming OhMyZsh ###
 - Install Powerline Fonts
-  - `git clone https://github.com/powerline/fonts.git$ cd fonts$ ./install.sh`
+  - `git clone https://github.com/powerline/fonts.git`
+  - `cd fonts`
+  - `./install.sh`
   - set font
-- Change theme to agnoster `open ~/.zshrcSet ZSH_THEME="agnoster" and save the file`
+- Change theme to agnoster
+  -`open ~/.zshrc`
+  - Set ZSH_THEME="agnoster" and save the file
 - Install Plugins (Note That ~/.zshrc edits are in repo)
   - Syntax Hilighting
     - `git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting`
@@ -48,3 +54,12 @@ Collection of Dotfiles for the Lovely Members of r/UnixPorn
 - Use Breeze Dark as KDE look and feel theme to get transparent right click menus
 - [Wallpaper](https://wallpaperhunt.net/wallpaper/under-the-horizon-144)
 - Must have splash screen set to "None" in KDE settings, otherwise i3/feh will take a long time to set wallpaper
+- Conky theme is set up to apear on a high DPI laptop display, may appear too large on 1920 x 1080 displays
+- [Make Applications appear nice on high DPI displays](https://wiki.archlinux.org/index.php/HiDPI#Spotify)
+
+## Vim ##
+- Plugin Manager: [Vundle](https://aur.archlinux.org/packages/vundle-git/)
+
+### Plugins: ###
+- [NerdTree (File Browser)](https://github.com/scrooloose/nerdtree)
+- [Devicons (Adds icons to nerdtree browser)](https://github.com/ryanoasis/vim-devicons)
