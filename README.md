@@ -18,13 +18,14 @@ Collection of Dotfiles for the Lovely Members of r/UnixPorn
 - [Install oh-my-zsh](https://aur.archlinux.org/packages/oh-my-zsh-git/): Make terminal look amazing
 - [Install Latte Dock](https://store.kde.org/p/1169519): Best dock / panel
 - [Install Conky-Cairo](https://aur.archlinux.org/packages/conky-cairo/): Desktop system monitor tool
-- [Add Source Code Pro Font](https://www.fontsquirrel.com/fonts/source-code-pro): Beautiful terminal font
-- [Add San Francisco Font](https://aur.archlinux.org/packages/otf-san-francisco/): Minimial, clean font used in macOS
+- [Add Source Code Pro Font](https://www.fontsquirrel.com/fonts/source-code-pro): Beautiful terminal / text editor / IDE font
+- [Add San Francisco Font](https://aur.archlinux.org/packages/otf-san-francisco/): Minimial, clean font used in macOS that will be used as a system font
 - [Install Flashfocus](https://github.com/fennerm/flashfocus): Makes windows flash once when switched to active
 - [Install feh](https://wiki.archlinux.org/index.php/feh): Sets Background
 - [Install Unimatrix](https://github.com/will8211/unimatrix): Cool terminal matrix text flow animation
 - [Install pipes](https://aur.archlinux.org/packages/bash-pipes/): Cool pipe terminal animation
 - [Install redshift](https://wiki.archlinux.org/index.php/Redshift): Changes screen tones for evening viewing
+- [Wallpaper](https://wallpaperhunt.net/wallpaper/under-the-horizon-144)
 
 ### Theming OhMyZsh ###
 - Install Powerline Fonts
@@ -59,15 +60,8 @@ Collection of Dotfiles for the Lovely Members of r/UnixPorn
   - System Tray
   - User Switcher
 
-### Generic Theming ###
-- Terminal / VSCode Font: [Source Code Pro](https://www.fontsquirrel.com/fonts/source-code-pro)
-- System, Application Font: [San Francisco](https://aur.archlinux.org/packages/otf-san-francisco/)
-
 ### Note ###
-- VSCode dotfiles settings.json goes in folder "User" in vscode config folder
-  - [How To Theme VSCode With Custom CSS](https://github.com/be5invis/vscode-custom-css)
 - Use Breeze Dark as KDE look and feel theme to get transparent right click menus
-- [Wallpaper](https://wallpaperhunt.net/wallpaper/under-the-horizon-144)
 - Must have splash screen set to "None" in KDE settings, otherwise i3/feh will take a long time to set wallpaper
 - Conky theme is set up to apear on a high DPI laptop display, may appear too large on 1920 x 1080 displays
 - [Make Applications appear nice on high DPI displays](https://wiki.archlinux.org/index.php/HiDPI#Spotify)
