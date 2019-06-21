@@ -3,6 +3,15 @@ Collection of Dotfiles for the Lovely Members of r/UnixPorn
 
 ![](/screenshot.jpg "")
 
+## Contents ##
+1. [Details](#details)
+2. [Install](#install)
+3. [Notes](#notes)
+4. [ZSH Theming](#zsh)
+5. [Latte Dock Theming](#dock)
+6. [Vim Configuration](#vim)
+
+<a name="details"></a>
 ## Details ##
 - **OS**: Arch Linux
 - **DE**: KDE Plasma
@@ -13,6 +22,7 @@ Collection of Dotfiles for the Lovely Members of r/UnixPorn
 - **Terminal**: Termite
 - **Compositor**: [Compton (tryone)](https://aur.archlinux.org/packages/compton-tryone-git/)
 
+<a name="install"></a>
 ## Things to Do / Install ##
 - [Set Up KDE For i3](https://medium.com/@vishnu_mad/using-i3-window-manager-with-kde-plasma-c2ac70594d8): Best DE + best WM
 - [Install oh-my-zsh](https://aur.archlinux.org/packages/oh-my-zsh-git/): Make terminal look amazing
@@ -27,6 +37,14 @@ Collection of Dotfiles for the Lovely Members of r/UnixPorn
 - [Install redshift](https://wiki.archlinux.org/index.php/Redshift): Changes screen tones for evening viewing
 - [Wallpaper](https://wallpaperhunt.net/wallpaper/under-the-horizon-144)
 
+<a name="notes"></a>
+### Notes ###
+- Use Breeze Dark as KDE look and feel theme to get transparent right click menus
+- Must have splash screen set to "None" in KDE settings, otherwise i3/feh will take a long time to set wallpaper
+- Conky theme is set up to apear on a high DPI laptop display, may appear too large on 1920 x 1080 displays
+- [Make Applications appear nice on high DPI displays](https://wiki.archlinux.org/index.php/HiDPI#Spotify)
+
+<a name="zsh"></a>
 ### Theming OhMyZsh ###
 - Install Powerline Fonts
   - `git clone https://github.com/powerline/fonts.git`
@@ -47,6 +65,7 @@ Collection of Dotfiles for the Lovely Members of r/UnixPorn
     - Reread config `source ~/.zshrc`
 - [More Theming Info](https://www.freecodecamp.org/news/jazz-up-your-zsh-terminal-in-seven-steps-a-visual-guide-e81a8fd59a38/)
 
+<a name="dock"></a>
 ### Latte Dock Setup ###
 **Top Panel:**
 - Mode: panel
@@ -60,12 +79,7 @@ Collection of Dotfiles for the Lovely Members of r/UnixPorn
   - System Tray
   - User Switcher
 
-### Note ###
-- Use Breeze Dark as KDE look and feel theme to get transparent right click menus
-- Must have splash screen set to "None" in KDE settings, otherwise i3/feh will take a long time to set wallpaper
-- Conky theme is set up to apear on a high DPI laptop display, may appear too large on 1920 x 1080 displays
-- [Make Applications appear nice on high DPI displays](https://wiki.archlinux.org/index.php/HiDPI#Spotify)
-
+<a name="vim"></a>
 ## Vim ##
 - Plugin Manager: [Vundle](https://aur.archlinux.org/packages/vundle-git/)
 
