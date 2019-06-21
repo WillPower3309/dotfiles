@@ -14,17 +14,17 @@ Collection of Dotfiles for the Lovely Members of r/UnixPorn
 - **Compositor**: [Compton (tryone)](https://aur.archlinux.org/packages/compton-tryone-git/)
 
 ## Things to Do / Install ##
-- [Set Up KDE For i3](https://medium.com/@vishnu_mad/using-i3-window-manager-with-kde-plasma-c2ac70594d8)
-- [Install oh-my-zsh](https://aur.archlinux.org/packages/oh-my-zsh-git/)
-- [Install Latte Dock](https://store.kde.org/p/1169519)
-- [Conky-Cairo](https://aur.archlinux.org/packages/conky-cairo/)
-- [Source Code Pro Font](https://www.fontsquirrel.com/fonts/source-code-pro)
-- [San Francisco Font](https://aur.archlinux.org/packages/otf-san-francisco/)
-- [Flashfocus](https://github.com/fennerm/flashfocus)
-- [Unimatrix](https://github.com/will8211/unimatrix) (Not required but looks dope!)
-- [feh](https://wiki.archlinux.org/index.php/feh) (To Set Background)
-- [pipes](https://aur.archlinux.org/packages/bash-pipes/)
-- [redshift](https://wiki.archlinux.org/index.php/Redshift)
+- [Set Up KDE For i3](https://medium.com/@vishnu_mad/using-i3-window-manager-with-kde-plasma-c2ac70594d8): Best DE + best WM
+- [Install oh-my-zsh](https://aur.archlinux.org/packages/oh-my-zsh-git/): Make terminal look amazing
+- [Install Latte Dock](https://store.kde.org/p/1169519): Best dock / panel
+- [Install Conky-Cairo](https://aur.archlinux.org/packages/conky-cairo/): Desktop system monitor tool
+- [Add Source Code Pro Font](https://www.fontsquirrel.com/fonts/source-code-pro): Beautiful terminal font
+- [Add San Francisco Font](https://aur.archlinux.org/packages/otf-san-francisco/): Minimial, clean font used in macOS
+- [Install Flashfocus](https://github.com/fennerm/flashfocus): Makes windows flash once when switched to active
+- [Install feh](https://wiki.archlinux.org/index.php/feh): Sets Background
+- [Install Unimatrix](https://github.com/will8211/unimatrix): Cool terminal matrix text flow animation
+- [Install pipes](https://aur.archlinux.org/packages/bash-pipes/): Cool pipe terminal animation
+- [Install redshift](https://wiki.archlinux.org/index.php/Redshift): Changes screen tones for evening viewing
 
 ### Theming OhMyZsh ###
 - Install Powerline Fonts
