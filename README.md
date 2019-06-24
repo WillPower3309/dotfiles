@@ -35,7 +35,7 @@ Collection of Dotfiles for the Lovely Members of r/UnixPorn
 - [Install Unimatrix](https://github.com/will8211/unimatrix): Cool terminal matrix text flow animation
 - [Install pipes](https://aur.archlinux.org/packages/bash-pipes/): Cool pipe terminal animation
 - [Install redshift](https://wiki.archlinux.org/index.php/Redshift): Changes screen tones for evening viewing
-- [Wallpaper](https://wallpaperhunt.net/wallpaper/under-the-horizon-144)
+- [Wallpaper](https://wallpaperhunt.net/wallpaper/under-the-horizon-144): **WARNING: SITE NSFW WITHOUT AD BLOCKER**
 
 <a name="notes"></a>
 ### Notes ###
