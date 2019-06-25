@@ -3,6 +3,15 @@ Collection of Dotfiles for the Lovely Members of r/UnixPorn
 
 ![](/screenshot.jpg "")
 
+## Contents ##
+1. [Details](#details)
+2. [Install](#install)
+3. [Notes](#notes)
+4. [ZSH Theming](#zsh)
+5. [Latte Dock Theming](#dock)
+6. [Vim Configuration](#vim)
+
+<a name="details"></a>
 ## Details ##
 - **OS**: Arch Linux
 - **DE**: KDE Plasma
@@ -13,19 +22,29 @@ Collection of Dotfiles for the Lovely Members of r/UnixPorn
 - **Terminal**: Termite
 - **Compositor**: [Compton (tryone)](https://aur.archlinux.org/packages/compton-tryone-git/)
 
+<a name="install"></a>
 ## Things to Do / Install ##
-- [Set Up KDE For i3](https://medium.com/@vishnu_mad/using-i3-window-manager-with-kde-plasma-c2ac70594d8)
-- [Install oh-my-zsh](https://aur.archlinux.org/packages/oh-my-zsh-git/)
-- [Install Latte Dock](https://store.kde.org/p/1169519)
-- [Conky-Cairo](https://aur.archlinux.org/packages/conky-cairo/)
-- [Source Code Pro Font](https://www.fontsquirrel.com/fonts/source-code-pro)
-- [San Francisco Font](https://aur.archlinux.org/packages/otf-san-francisco/)
-- [Flashfocus](https://github.com/fennerm/flashfocus)
-- [Unimatrix](https://github.com/will8211/unimatrix) (Not required but looks dope!)
-- [feh](https://wiki.archlinux.org/index.php/feh) (To Set Background)
-- [pipes](https://aur.archlinux.org/packages/bash-pipes/)
-- [redshift](https://wiki.archlinux.org/index.php/Redshift)
+- [Set Up KDE For i3](https://medium.com/@vishnu_mad/using-i3-window-manager-with-kde-plasma-c2ac70594d8): Best DE + best WM
+- [Install oh-my-zsh](https://aur.archlinux.org/packages/oh-my-zsh-git/): Make terminal look amazing
+- [Install Latte Dock](https://store.kde.org/p/1169519): Best dock / panel
+- [Install Conky-Cairo](https://aur.archlinux.org/packages/conky-cairo/): Desktop system monitor tool
+- [Add Source Code Pro Font](https://www.fontsquirrel.com/fonts/source-code-pro): Beautiful terminal / text editor / IDE font
+- [Add San Francisco Font](https://aur.archlinux.org/packages/otf-san-francisco/): Minimial, clean font used in macOS that will be used as a system font
+- [Install Flashfocus](https://github.com/fennerm/flashfocus): Makes windows flash once when switched to active
+- [Install feh](https://wiki.archlinux.org/index.php/feh): Sets Background
+- [Install Unimatrix](https://github.com/will8211/unimatrix): Cool terminal matrix text flow animation
+- [Install pipes](https://aur.archlinux.org/packages/bash-pipes/): Cool pipe terminal animation
+- [Install redshift](https://wiki.archlinux.org/index.php/Redshift): Changes screen tones for evening viewing
+- [Wallpaper](https://wallpaperhunt.net/wallpaper/under-the-horizon-144): **WARNING: SITE NSFW WITHOUT AD BLOCKER**
 
+<a name="notes"></a>
+### Notes ###
+- Use Breeze Dark as KDE look and feel theme to get transparent right click menus
+- Must have splash screen set to "None" in KDE settings, otherwise i3/feh will take a long time to set wallpaper
+- Conky theme is set up to apear on a high DPI laptop display, may appear too large on 1920 x 1080 displays
+- [Make Applications appear nice on high DPI displays](https://wiki.archlinux.org/index.php/HiDPI#Spotify)
+
+<a name="zsh"></a>
 ### Theming OhMyZsh ###
 - Install Powerline Fonts
   - `git clone https://github.com/powerline/fonts.git`
@@ -46,6 +65,7 @@ Collection of Dotfiles for the Lovely Members of r/UnixPorn
     - Reread config `source ~/.zshrc`
 - [More Theming Info](https://www.freecodecamp.org/news/jazz-up-your-zsh-terminal-in-seven-steps-a-visual-guide-e81a8fd59a38/)
 
+<a name="dock"></a>
 ### Latte Dock Setup ###
 **Top Panel:**
 - Mode: panel
@@ -59,19 +79,7 @@ Collection of Dotfiles for the Lovely Members of r/UnixPorn
   - System Tray
   - User Switcher
 
-### Generic Theming ###
-- Terminal / VSCode Font: [Source Code Pro](https://www.fontsquirrel.com/fonts/source-code-pro)
-- System, Application Font: [San Francisco](https://aur.archlinux.org/packages/otf-san-francisco/)
-
-### Note ###
-- VSCode dotfiles settings.json goes in folder "User" in vscode config folder
-  - [How To Theme VSCode With Custom CSS](https://github.com/be5invis/vscode-custom-css)
-- Use Breeze Dark as KDE look and feel theme to get transparent right click menus
-- [Wallpaper](https://wallpaperhunt.net/wallpaper/under-the-horizon-144)
-- Must have splash screen set to "None" in KDE settings, otherwise i3/feh will take a long time to set wallpaper
-- Conky theme is set up to apear on a high DPI laptop display, may appear too large on 1920 x 1080 displays
-- [Make Applications appear nice on high DPI displays](https://wiki.archlinux.org/index.php/HiDPI#Spotify)
-
+<a name="vim"></a>
 ## Vim ##
 - Plugin Manager: [Vundle](https://aur.archlinux.org/packages/vundle-git/)
 
