@@ -17,7 +17,7 @@ Collection of Dotfiles for the Lovely Members of r/UnixPorn
 - **DE**: KDE Plasma
 - **WM**: i3-gaps
 - **Theme**: [Arc Dark Transparent](https://store.kde.org/p/1243914/)
-- **Icons**: [Papirus-Dark](https://www.archlinux.org/packages/community/any/papirus-icon-theme/)
+- **Icons**: [McMojave-circle](https://store.kde.org/p/1305429/)
 - **Shell**: ZSH
 - **Terminal**: Termite
 - **Compositor**: [Compton (tryone)](https://aur.archlinux.org/packages/compton-tryone-git/)
