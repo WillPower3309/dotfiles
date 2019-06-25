@@ -1,7 +1,7 @@
 # dotfiles
 Collection of Dotfiles for the Lovely Members of r/UnixPorn
 
-![](/screenshot.jpg "")
+![](/screenshot.png "")
 
 ## Contents ##
 1. [Details](#details)
