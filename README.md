@@ -44,7 +44,7 @@ Collection of Dotfiles for the Lovely Members of r/UnixPorn
 - Conky theme is set up to apear on a high DPI laptop display, may appear too large on 1920 x 1080 displays
 - Bluetooth setup:
   - install bluez and bluez utils
-  - innstall pulseaudio-bluetooth
+  - install pulseaudio-bluetooth
   - start and enable bluetooth.service with systemctl
   - reboot
 
