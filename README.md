@@ -32,6 +32,7 @@ Collection of Dotfiles for the Lovely Members of r/UnixPorn
 - [Add San Francisco Font](https://aur.archlinux.org/packages/otf-san-francisco/): Minimial, clean font used in macOS that will be used as a system font
 - [Install Flashfocus](https://github.com/fennerm/flashfocus): Makes windows flash once when switched to active
 - [Install feh](https://wiki.archlinux.org/index.php/feh): Sets Background
+- [Install feh-blur](https://github.com/rstacruz/feh-blur-wallpaper): Blurs background when a window is opened
 - [Install Unimatrix](https://github.com/will8211/unimatrix): Cool terminal matrix text flow animation
 - [Install pipes](https://aur.archlinux.org/packages/bash-pipes/): Cool pipe terminal animation
 - [Install redshift](https://wiki.archlinux.org/index.php/Redshift): Changes screen tones for evening viewing
