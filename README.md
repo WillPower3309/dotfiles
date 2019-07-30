@@ -42,7 +42,11 @@ Collection of Dotfiles for the Lovely Members of r/UnixPorn
 - Use Breeze Dark as KDE look and feel theme to get transparent right click menus
 - Must have splash screen set to "None" in KDE settings, otherwise i3/feh will take a long time to set wallpaper
 - Conky theme is set up to apear on a high DPI laptop display, may appear too large on 1920 x 1080 displays
-- [Make Applications appear nice on high DPI displays](https://wiki.archlinux.org/index.php/HiDPI#Spotify)
+- Bluetooth setup:
+  - install bluez and bluez utils
+  - innstall pulseaudio-bluetooth
+  - start and enable bluetooth.service with systemctl
+  - reboot
 
 <a name="zsh"></a>
 ### Theming OhMyZsh ###
