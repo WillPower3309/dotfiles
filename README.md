@@ -41,6 +41,9 @@ Collection of Dotfiles for the Lovely Members of r/UnixPorn
 ### Notes ###
 - Use Breeze Dark as KDE look and feel theme to get transparent right click menus
 - Must have splash screen set to "None" in KDE settings, otherwise i3/feh will take a long time to set wallpaper
+- GTK / Electron Global Menu Support:
+   `sudo pacman -S appmenu-gtk-module appmenu-gtk-module`
+   `sudo pacman -S appmenu-gtk-module libdbusmenu-glib`
 - Conky theme is set up to apear on a high DPI laptop display, may appear too large on 1920 x 1080 displays
 - Bluetooth setup:
   - install bluez and bluez utils
