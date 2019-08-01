@@ -38,7 +38,7 @@ set $mod Mod4
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
-font pango:SF Pro Text 9
+font pango:monospace 8
 
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
@@ -55,11 +55,10 @@ font pango:SF Pro Text 9
 floating_modifier $mod
 
 # start a terminal
-bindsym $mod+Return exec i3-sensible-terminal
+bindsym $mod+Return exec konsole
 
 # kill focused window
 bindsym $mod+Shift+q kill
-
 
 # change focus
 bindsym $mod+j focus left
@@ -108,6 +107,9 @@ bindsym $mod+space focus mode_toggle
 # focus the parent container
 bindsym $mod+a focus parent
 
+# focus the child container
+#bindsym $mod+d focus child
+
 # Define names for default workspaces for which we configure key bindings later on.
 # We use variables to avoid repeating the names in multiple places.
 set $ws1 "1"
@@ -145,12 +147,6 @@ bindsym $mod+Shift+8 move container to workspace $ws8
 bindsym $mod+Shift+9 move container to workspace $ws9
 bindsym $mod+Shift+0 move container to workspace $ws10
 
-# Open specific applications in floating mode
-for_window [class="(?i)virtualbox"] floating enable border normal
-
-# switch to workspace with urgent window automatically
-for_window [urgent=latest] focus
-
 # reload the configuration file
 bindsym $mod+Shift+c reload
 # restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
@@ -185,10 +181,11 @@ mode "resize" {
 
 bindsym $mod+r mode "resize"
 
+
 # rofi
 bindsym $mod+d exec rofi -show drun
 
-#flash current window
+# flash current window
 bindsym $mod+n exec --no-startup-id flash_window
 
 #*********************************************************************************
@@ -198,12 +195,10 @@ bindsym $mod+n exec --no-startup-id flash_window
 #********************************************************************************
 
 exec --no-startup-id feh --bg-scale ~/Documents/background.JPG
-exec --no-startup-id compton --config ~/.config/compton/compton.conf
-exec --no-startup-id m 26/10 4
-exec --no-startup-id conky -c ~/.config/conky/conkyrc
-exec --no-startup-id latte-dock %u
-exec --no-startup-id redshift-gtk
-exec_always --no-startup-id flashfocus
+exec --no-startup-id compton
+exec --no-startup-id ~/.scripts/feh-blur -b 12 -D 0
+exec --no-startup-id flashfocus
+#exec --no-startup-id conky -c ~/.config/conky/conkyrc
 
 #********************************************************************************
 

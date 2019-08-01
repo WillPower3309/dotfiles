@@ -1,10 +1,7 @@
 --[[
 Clock Rings by Linux Mint (2011) reEdited by despot77
-
 This script draws percentage meters as rings, and also draws clock hands if you want! It is fully customisable; all options are described in the script. This script is based off a combination of my clock.lua script and my rings.lua script.
-
 IMPORTANT: if you are using the 'cpu' function, it will cause a segmentation fault if it tries to draw a ring straight away. The if statement on line 145 uses a delay to make sure that this doesn't happen. It calculates the length of the delay by the number of updates since Conky started. Generally, a value of 5s is long enough, so if you update Conky every 1s, use update_num>5 in that if statement (the default). If you only update Conky every 2s, you should change it to update_num>3; conversely if you update Conky every 0.5s, you should use update_num>10. ALSO, if you change your Conky, is it best to use "killall conky; conky" to update it, otherwise the update_num will not be reset and you will get an error.
-
 To call this script in Conky, use the following (assuming that you save this script to ~/scripts/rings.lua):
     lua_load ~/scripts/clock_rings.lua
     lua_draw_hook_pre clock_rings

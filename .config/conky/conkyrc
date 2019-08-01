@@ -66,4 +66,4 @@ ${color FFFFFF}${goto 200}${voffset 50}${fs_used_perc /}%
 ${color FFFFFF}${goto 200}Disk
 ${color FFFFFF}${goto 260}${voffset 55}${downspeed eth0}
 ${color FFFFFF}${goto 260}${upspeed eth0}
-${color FFFFFF}${goto 260}Net
+${color FFFFFF}${goto 260}Net 
