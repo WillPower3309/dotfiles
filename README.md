@@ -8,6 +8,7 @@ Collection of Dotfiles for the Lovely Members of r/UnixPorn
 2. [Install](#install)
 3. [Notes](#notes)
 4. [ZSH Theming](#zsh)
+5. [Spotify Theming](#spotify)
 5. [Latte Dock Theming](#dock)
 6. [Vim Configuration](#vim)
 
@@ -36,7 +37,7 @@ Collection of Dotfiles for the Lovely Members of r/UnixPorn
 - [Install Unimatrix](https://github.com/will8211/unimatrix): Cool terminal matrix text flow animation
 - [Install pipes](https://aur.archlinux.org/packages/bash-pipes/): Cool pipe terminal animation
 - [Install redshift](https://wiki.archlinux.org/index.php/Redshift): Changes screen tones for evening viewing
-- [Install Spicetify](https://github.com/khanhas/Spicetify): Make spotify sexy
+- [Install Spicetify](https://github.com/khanhas/spicetify-cli): Make spotify sexy
 - [Wallpaper](https://wallpaperhunt.net/wallpaper/under-the-horizon-144): **WARNING: SITE NSFW WITHOUT AD BLOCKER**
 
 <a name="notes"></a>
@@ -53,12 +54,6 @@ Collection of Dotfiles for the Lovely Members of r/UnixPorn
   - install pulseaudio-bluetooth
   - start and enable bluetooth.service with systemctl
   - reboot
-- Make Spotify look nice:
-   1. chown spotify directory: `sudo chown $USER -R /opt/spotify`
-   2. run `spicetify` once to generate config
-   3. `spicetify backup apply enable-devtool` to enable devtools
-   4. Place your color.ini and user.css in `~/.config/spicetify/Themes/<your theme name, whatever you want>` and edit `~/.config/spicetify/config.ini` to reflect this name
-   5. run `spicetify update restart`
 
 <a name="zsh"></a>
 ### Theming OhMyZsh ###
@@ -80,6 +75,15 @@ Collection of Dotfiles for the Lovely Members of r/UnixPorn
     - Edit `~/.zshrc`, add `zsh-autosuggestions` to the plugins section
     - Reread config `source ~/.zshrc`
 - [More Theming Info](https://www.freecodecamp.org/news/jazz-up-your-zsh-terminal-in-seven-steps-a-visual-guide-e81a8fd59a38/)
+
+<a name="spotify"></a>
+### Theming Spotify ###
+1. Ensure [spicetify](https://github.com/khanhas/spicetify-cli) is installed
+2. chown spotify directory: `sudo chown $USER -R /opt/spotify`
+3. run `spicetify` once to generate config
+4. `spicetify backup apply enable-devtool` to enable devtools
+5. Place your color.ini and user.css in `~/.config/spicetify/Themes/<your theme name, whatever you want>` and edit `~/.config/spicetify/config.ini` to reflect this name
+6. run `spicetify update restart`
 
 <a name="dock"></a>
 ### Latte Dock Setup ###
