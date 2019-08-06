@@ -42,6 +42,7 @@ Collection of Dotfiles for the Lovely Members of r/UnixPorn
 ### Notes ###
 - Use Breeze Dark as KDE look and feel theme to get transparent right click menus
 - Must have splash screen set to "None" in KDE settings, otherwise i3/feh will take a long time to set wallpaper
+- Remember to remove KDE shortcuts to avoid conflict with i3 shortcuts
 - GTK / Electron Global Menu Support:
    - `sudo pacman -S appmenu-gtk-module appmenu-gtk-module`
    - `sudo pacman -S appmenu-gtk-module libdbusmenu-glib`
@@ -51,6 +52,12 @@ Collection of Dotfiles for the Lovely Members of r/UnixPorn
   - install pulseaudio-bluetooth
   - start and enable bluetooth.service with systemctl
   - reboot
+- Make Spotify look nice:
+   1. chown spotify directory: `sudo chown $USER -R /opt/spotify`
+   2. run `spicetify` once to generate config
+   3. `spicetify backup apply enable-devtool` to enable devtools
+   4. Place your color.ini and user.css in `~/.config/spicetify/Themes/<your theme name, whatever you want>` and edit `~/.config/spicetify/config.ini` to reflect this name
+   5. run `spicetify update restart`
 
 <a name="zsh"></a>
 ### Theming OhMyZsh ###
