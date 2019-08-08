@@ -17,11 +17,12 @@ Collection of Dotfiles for the Lovely Members of r/UnixPorn
 - **OS**: Arch Linux
 - **DE**: KDE Plasma
 - **WM**: i3-gaps
-- **Theme**: [Arc Dark Transparent](https://store.kde.org/p/1243914/)
+- **Theme**: Arc Dark Transparent
 - **Icons**: [McMojave-circle](https://store.kde.org/p/1305429/)
 - **Shell**: ZSH
-- **Terminal**: Termite
+- **Terminal**: Konsole
 - **Compositor**: [Compton (tryone)](https://aur.archlinux.org/packages/compton-tryone-git/)
+- [**Wallpaper**](https://www.fabuloussavers.com/new_wallpaper/anime_sky_clouds_sunset-wallpapers-2560x1440.shtml)
 
 <a name="install"></a>
 ## Things to Do / Install ##
@@ -38,7 +39,6 @@ Collection of Dotfiles for the Lovely Members of r/UnixPorn
 - [Install pipes](https://aur.archlinux.org/packages/bash-pipes/): Cool pipe terminal animation
 - [Install redshift](https://wiki.archlinux.org/index.php/Redshift): Changes screen tones for evening viewing
 - [Install Spicetify](https://github.com/khanhas/spicetify-cli): Make spotify sexy
-- [Wallpaper](https://wallpaperhunt.net/wallpaper/under-the-horizon-144): **WARNING: SITE NSFW WITHOUT AD BLOCKER**
 
 <a name="notes"></a>
 ### Notes ###
