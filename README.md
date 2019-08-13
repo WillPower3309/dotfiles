@@ -38,8 +38,10 @@ Collection of Dotfiles for the Lovely Members of r/UnixPorn
 - [Install Unimatrix](https://github.com/will8211/unimatrix): Cool terminal matrix text flow animation
 - [Install pipes](https://aur.archlinux.org/packages/bash-pipes/): Cool pipe terminal animation
 - [Install redshift](https://wiki.archlinux.org/index.php/Redshift): Changes screen tones for evening viewing
-- [Install Spicetify](https://github.com/khanhas/spicetify-cli): Make spotify sexy
-- [Install My Good Looking Custom Transparent vscode](https://github.com/WillPower3309/vscode-transparent)
+- Application Theming Stuff:
+  - [Install Spicetify](https://github.com/khanhas/spicetify-cli): Make spotify sexy
+  - [Install My Good Looking Custom Transparent vscode](https://github.com/WillPower3309/vscode-transparent)
+  - [Install Slack Desktop with Patched Dark Theme](https://aur.archlinux.org/packages/slack-desktop-dark/)
 
 <a name="notes"></a>
 ### Notes ###
