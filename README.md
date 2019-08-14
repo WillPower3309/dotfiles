@@ -42,6 +42,7 @@ Collection of Dotfiles for the Lovely Members of r/UnixPorn
   - [Install Spicetify](https://github.com/khanhas/spicetify-cli): Make spotify sexy
   - [Install My Good Looking Custom Transparent vscode](https://github.com/WillPower3309/vscode-transparent)
   - [Install Slack Desktop with Patched Dark Theme](https://aur.archlinux.org/packages/slack-desktop-dark/)
+  - [Set up This Firefox Theme](https://github.com/muckSponge/MaterialFox)
 
 <a name="notes"></a>
 ### Notes ###
