@@ -30,6 +30,9 @@ Collection of Dotfiles for the Lovely Members of r/UnixPorn
 **[Set Up KDE For i3](https://medium.com/@vishnu_mad/using-i3-window-manager-with-kde-plasma-c2ac70594d8): Best DE + best WM**
   - Must have splash screen set to "None" in KDE settings, otherwise i3/feh will take a long time to set wallpaper
   - Remember to remove KDE shortcuts to avoid conflict with i3 shortcuts
+  - KDE slows down computer, remove window effects that no longer apply with i3 / compton to speed it up
+    - Settings -> Desktop Behaviour -> Desktop Effects: uncheck everything
+    - Settings -> Display and Monitor -> Compositor: uncheck *enable compositor on startup*, set *Tearing Prevention* to *Never*
 
 | Dependency    | Description             | Usage               |
 |:-------------:|:-----------------------:| :------------------:|
