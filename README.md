@@ -7,10 +7,8 @@ Collection of Dotfiles for the Lovely Members of r/UnixPorn
 1. [Details](#details)
 2. [Dependencies](#dependencies)
 3. [Cool Things to Install](#coolinstall)
-3. [Notes](#notes)
-4. [ZSH Theming](#zsh)
-5. [Spotify Theming](#spotify)
-5. [Latte Dock Theming](#dock)
+4. [Application Theming](#application-theming)
+5. [Latte Dock](#dock)
 6. [Vim Configuration](#vim)
 
 <a name="details"></a>
@@ -29,6 +27,8 @@ Collection of Dotfiles for the Lovely Members of r/UnixPorn
 ## Dependencies ##
 
 **[Set Up KDE For i3](https://medium.com/@vishnu_mad/using-i3-window-manager-with-kde-plasma-c2ac70594d8): Best DE + best WM**
+  - Must have splash screen set to "None" in KDE settings, otherwise i3/feh will take a long time to set wallpaper
+  - Remember to remove KDE shortcuts to avoid conflict with i3 shortcuts
 
 | Dependency    | Description             | Usage               |
 |:-------------:|:-----------------------:| :------------------:|
@@ -45,34 +45,20 @@ Collection of Dotfiles for the Lovely Members of r/UnixPorn
 <a name="coolinstall"></a>
 ## Cool Things to Install ##
 - [Conky-Cairo](https://aur.archlinux.org/packages/conky-cairo/): Cool Desktop system monitor tool
+  - Conky theme in dotfiles is set up to apear on a high DPI laptop display, may appear too large on 1920 x 1080 displays
 - [Flashfocus](https://github.com/fennerm/flashfocus): Makes windows flash once when switched to active
 - [Install Unimatrix](https://github.com/will8211/unimatrix): Cool terminal matrix text flow animation
 - [Install pipes](https://aur.archlinux.org/packages/bash-pipes/): Cool pipe terminal animation
 - [Install redshift](https://wiki.archlinux.org/index.php/Redshift): Changes screen tones for evening viewing
 
-- Application Theming Stuff:
+<a name="application-theming"></a>
+## Application Theming: ##
   - [Install Spicetify](https://github.com/khanhas/spicetify-cli): Make spotify sexy
   - [Install My Good Looking Custom Transparent vscode](https://github.com/WillPower3309/vscode-transparent)
   - [Install Slack Desktop with Patched Dark Theme](https://aur.archlinux.org/packages/slack-desktop-dark/)
   - [Set up This Firefox Theme](https://github.com/muckSponge/MaterialFox)
 
-<a name="notes"></a>
-### Notes ###
-- Use Breeze Dark as KDE look and feel theme to get transparent right click menus
-- Must have splash screen set to "None" in KDE settings, otherwise i3/feh will take a long time to set wallpaper
-- Remember to remove KDE shortcuts to avoid conflict with i3 shortcuts
-- GTK / Electron Global Menu Support:
-   - `sudo pacman -S appmenu-gtk-module appmenu-gtk-module`
-   - `sudo pacman -S appmenu-gtk-module libdbusmenu-glib`
-- Conky theme is set up to apear on a high DPI laptop display, may appear too large on 1920 x 1080 displays
-- Bluetooth setup:
-  - install bluez and bluez utils
-  - install pulseaudio-bluetooth
-  - start and enable bluetooth.service with systemctl
-  - reboot
-
-<a name="zsh"></a>
-### Theming OhMyZsh ###
+### OhMyZsh ###
 - Install Powerline Fonts
   - `git clone https://github.com/powerline/fonts.git`
   - `cd fonts`
@@ -92,8 +78,7 @@ Collection of Dotfiles for the Lovely Members of r/UnixPorn
     - Reread config `source ~/.zshrc`
 - [More Theming Info](https://www.freecodecamp.org/news/jazz-up-your-zsh-terminal-in-seven-steps-a-visual-guide-e81a8fd59a38/)
 
-<a name="spotify"></a>
-### Theming Spotify ###
+### Spotify ###
 1. Ensure [spicetify](https://github.com/khanhas/spicetify-cli) is installed
 2. chown spotify directory: `sudo chown $USER -R /opt/spotify`
 3. run `spicetify` once to generate config
@@ -102,12 +87,15 @@ Collection of Dotfiles for the Lovely Members of r/UnixPorn
 6. run `spicetify update restart`
 
 <a name="dock"></a>
-### Latte Dock Setup ###
+## Latte Dock Setup ##
 **Top Panel:**
 - Mode: panel
 - Widgets (in order):
   - Active Window Control
   - Global Menu
+    - GTK / Electron Global Menu Panel Support:
+      - `sudo pacman -S appmenu-gtk-module appmenu-gtk-module`
+      - `sudo pacman -S appmenu-gtk-module libdbusmenu-glib`
   - Spacer
   - Digital Clock
   - Spacer
