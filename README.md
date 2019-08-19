@@ -5,7 +5,8 @@ Collection of Dotfiles for the Lovely Members of r/UnixPorn
 
 ## Contents ##
 1. [Details](#details)
-2. [Install](#install)
+2. [Dependencies](#dependencies)
+3. [Cool Things to Install](#coolinstall)
 3. [Notes](#notes)
 4. [ZSH Theming](#zsh)
 5. [Spotify Theming](#spotify)
@@ -24,20 +25,30 @@ Collection of Dotfiles for the Lovely Members of r/UnixPorn
 - **Compositor**: [Compton (tryone)](https://aur.archlinux.org/packages/compton-tryone-git/)
 - [**Wallpaper**](https://www.fabuloussavers.com/new_wallpaper/anime_sky_clouds_sunset-wallpapers-2560x1440.shtml)
 
-<a name="install"></a>
-## Things to Do / Install ##
-- [Set Up KDE For i3](https://medium.com/@vishnu_mad/using-i3-window-manager-with-kde-plasma-c2ac70594d8): Best DE + best WM
-- [Install oh-my-zsh](https://aur.archlinux.org/packages/oh-my-zsh-git/): Make terminal look amazing
-- [Install Latte Dock](https://store.kde.org/p/1169519): Best dock / panel
-- [Install Conky-Cairo](https://aur.archlinux.org/packages/conky-cairo/): Desktop system monitor tool
-- [Add Source Code Pro Font](https://www.fontsquirrel.com/fonts/source-code-pro): Beautiful terminal / text editor / IDE font
-- [Add San Francisco Font](https://aur.archlinux.org/packages/otf-san-francisco/): Minimial, clean font used in macOS that will be used as a system font
-- [Install Flashfocus](https://github.com/fennerm/flashfocus): Makes windows flash once when switched to active
-- [Install feh](https://wiki.archlinux.org/index.php/feh): Sets Background
-- [Install feh-blur](https://github.com/rstacruz/feh-blur-wallpaper): Blurs background when a window is opened
+<a name="dependencies"></a>
+## Dependencies ##
+
+**[Set Up KDE For i3](https://medium.com/@vishnu_mad/using-i3-window-manager-with-kde-plasma-c2ac70594d8): Best DE + best WM**
+
+| Dependency    | Description             | Usage               |
+|:-------------:|:-----------------------:| :------------------:|
+| `plasma`      | Best DE, imo            | Desktop Environment |
+| `i3-gaps`     | Best WM of a generation | Window Manager      |
+|[oh-my-zsh](https://aur.archlinux.org/packages/oh-my-zsh-git/)|ZSH is a better looking bash alternative|Shell|
+|[Latte Dock](https://store.kde.org/p/1169519)|Panel|Best dock / panel|
+|[Conky-Cairo](https://aur.archlinux.org/packages/conky-cairo/)|Cool Desktop system monitor tool|Presents system information on the desktop|
+|[Source Code Pro Font](https://www.fontsquirrel.com/fonts/source-code-pro)|Beautiful terminal / text editor / IDE font|Monospace Font|
+|[San Francisco Font](https://aur.archlinux.org/packages/otf-san-francisco/)|Minimial, clean font used in macOS|System Font|
+|[Flashfocus](https://github.com/fennerm/flashfocus)|Makes windows flash once when switched to active|Clarifies which window is active|
+|[feh](https://wiki.archlinux.org/index.php/feh)|Sets Background|Background Setter|
+|[feh-blur](https://github.com/rstacruz/feh-blur-wallpaper)|Blurs background when a window is opened|Draws Focus to Windows|
+
+<a name="coolinstall"></a>
+## Cool Things to Install ##
 - [Install Unimatrix](https://github.com/will8211/unimatrix): Cool terminal matrix text flow animation
 - [Install pipes](https://aur.archlinux.org/packages/bash-pipes/): Cool pipe terminal animation
 - [Install redshift](https://wiki.archlinux.org/index.php/Redshift): Changes screen tones for evening viewing
+
 - Application Theming Stuff:
   - [Install Spicetify](https://github.com/khanhas/spicetify-cli): Make spotify sexy
   - [Install My Good Looking Custom Transparent vscode](https://github.com/WillPower3309/vscode-transparent)
