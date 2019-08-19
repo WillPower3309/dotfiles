@@ -36,15 +36,15 @@ Collection of Dotfiles for the Lovely Members of r/UnixPorn
 | `i3-gaps`     | Best WM of a generation | Window Manager      |
 |[oh-my-zsh](https://aur.archlinux.org/packages/oh-my-zsh-git/)|ZSH is a better looking bash alternative|Shell|
 |[Latte Dock](https://store.kde.org/p/1169519)|Panel|Best dock / panel|
-|[Conky-Cairo](https://aur.archlinux.org/packages/conky-cairo/)|Cool Desktop system monitor tool|Presents system information on the desktop|
 |[Source Code Pro Font](https://www.fontsquirrel.com/fonts/source-code-pro)|Beautiful terminal / text editor / IDE font|Monospace Font|
 |[San Francisco Font](https://aur.archlinux.org/packages/otf-san-francisco/)|Minimial, clean font used in macOS|System Font|
-|[Flashfocus](https://github.com/fennerm/flashfocus)|Makes windows flash once when switched to active|Clarifies which window is active|
 |[feh](https://wiki.archlinux.org/index.php/feh)|Sets Background|Background Setter|
 |[feh-blur](https://github.com/rstacruz/feh-blur-wallpaper)|Blurs background when a window is opened|Draws Focus to Windows|
 
 <a name="coolinstall"></a>
 ## Cool Things to Install ##
+- [Conky-Cairo](https://aur.archlinux.org/packages/conky-cairo/): Cool Desktop system monitor tool
+- [Flashfocus](https://github.com/fennerm/flashfocus): Makes windows flash once when switched to active
 - [Install Unimatrix](https://github.com/will8211/unimatrix): Cool terminal matrix text flow animation
 - [Install pipes](https://aur.archlinux.org/packages/bash-pipes/): Cool pipe terminal animation
 - [Install redshift](https://wiki.archlinux.org/index.php/Redshift): Changes screen tones for evening viewing
