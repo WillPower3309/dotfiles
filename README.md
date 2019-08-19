@@ -34,6 +34,7 @@ Collection of Dotfiles for the Lovely Members of r/UnixPorn
 |:-------------:|:-----------------------:| :------------------:|
 | `plasma`      | Best DE, imo            | Desktop Environment |
 | `i3-gaps`     | Best WM of a generation | Window Manager      |
+| `rofi`        | Beatiful application launcher | Application Launcher |
 |[oh-my-zsh](https://aur.archlinux.org/packages/oh-my-zsh-git/)|ZSH is a better looking bash alternative|Shell|
 |[Latte Dock](https://store.kde.org/p/1169519)|Panel|Best dock / panel|
 |[Source Code Pro Font](https://www.fontsquirrel.com/fonts/source-code-pro)|Beautiful terminal / text editor / IDE font|Monospace Font|
