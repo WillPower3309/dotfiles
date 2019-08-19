@@ -38,7 +38,7 @@ Collection of Dotfiles for the Lovely Members of r/UnixPorn
 |:-------------:|:-----------------------:| :------------------:|
 | `plasma`      | Best DE, imo            | Desktop Environment |
 | `i3-gaps`     | Best WM of a generation | Window Manager      |
-|[Compton (tryone)](https://aur.archlinux.org/packages/compton-tryone-git/)|Fork of the Best window compositor with added blur effects|Window Compositor|
+|[Compton (tryone)](https://aur.archlinux.org/packages/compton-tryone-git/)|Fork of the best window compositor with added blur effects|Window Compositor|
 | `rofi`        | Beatiful application launcher | Application Launcher |
 |[oh-my-zsh](https://aur.archlinux.org/packages/oh-my-zsh-git/)|ZSH is a better looking bash alternative|Shell|
 |[Latte Dock](https://store.kde.org/p/1169519)|Panel|Best dock / panel|
@@ -60,7 +60,7 @@ Collection of Dotfiles for the Lovely Members of r/UnixPorn
 ## Recommended Applications ##
 - Terminal: Termite
 - File Manager: Dolphin
-- Web Browser: Firefox with Vimium, Stylus
+- Web Browser: Firefox with [Vimium](https://addons.mozilla.org/en-US/firefox/addon/vimium-ff/?src=search), [Stylus](https://addons.mozilla.org/en-US/firefox/addon/styl-us/?src=search), and [Dark Reader](https://addons.mozilla.org/en-US/firefox/addon/darkreader/)
 
 <a name="application-theming"></a>
 ## Application Theming: ##
