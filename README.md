@@ -54,9 +54,9 @@ Collection of Dotfiles for the Lovely Members of r/UnixPorn
 
 <a name="applications"></a>
 ## Recommended Applications ##
-Terminal: Termite
-File Manager: Dolphin
-Web Browser: Firefox
+- Terminal: Termite
+- File Manager: Dolphin
+- Web Browser: Firefox
 
 <a name="application-theming"></a>
 ## Application Theming: ##
