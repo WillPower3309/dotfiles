@@ -7,9 +7,10 @@ Collection of Dotfiles for the Lovely Members of r/UnixPorn
 1. [Details](#details)
 2. [Dependencies](#dependencies)
 3. [Cool Things to Install](#coolinstall)
-4. [Application Theming](#application-theming)
-5. [Latte Dock](#dock)
-6. [Vim Configuration](#vim)
+4. [Recommended Applications](#applications)
+5. [Application Theming](#application-theming)
+6. [Latte Dock](#dock)
+7. [Vim Configuration](#vim)
 
 <a name="details"></a>
 ## Details ##
@@ -50,6 +51,12 @@ Collection of Dotfiles for the Lovely Members of r/UnixPorn
 - [Install Unimatrix](https://github.com/will8211/unimatrix): Cool terminal matrix text flow animation
 - [Install pipes](https://aur.archlinux.org/packages/bash-pipes/): Cool pipe terminal animation
 - [Install redshift](https://wiki.archlinux.org/index.php/Redshift): Changes screen tones for evening viewing
+
+<a name="applications"></a>
+## Recommended Applications ##
+Terminal: Termite
+File Manager: Dolphin
+Web Browser: Firefox
 
 <a name="application-theming"></a>
 ## Application Theming: ##
