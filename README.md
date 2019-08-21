@@ -97,6 +97,10 @@ Collection of Dotfiles for the Lovely Members of r/UnixPorn
 5. Place your color.ini and user.css in `~/.config/spicetify/Themes/<your theme name, whatever you want>` and edit `~/.config/spicetify/config.ini` to reflect this name
 6. run `spicetify update restart`
 
+### Code ###
+- [General Settings Guidelines](https://app.getpocket.com/read/2581858073)
+- [My custom transparent code repo](https://github.com/WillPower3309/vscode-transparent)
+
 <a name="dock"></a>
 ## Latte Dock Setup ##
 **Top Panel:**
