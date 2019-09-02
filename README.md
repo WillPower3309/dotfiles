@@ -42,7 +42,7 @@ Collection of Dotfiles for the Lovely Members of r/UnixPorn
 | `rofi`        | Beatiful application launcher | Application Launcher |
 |[oh-my-zsh](https://aur.archlinux.org/packages/oh-my-zsh-git/)|ZSH is a better looking bash alternative|Shell|
 |[Latte Dock](https://store.kde.org/p/1169519)|Panel|Best dock / panel|
-|[Source Code Pro Font](https://www.fontsquirrel.com/fonts/source-code-pro)|Beautiful terminal / text editor / IDE font|Monospace Font|
+|[Hasklig Font](https://github.com/i-tu/Hasklig)|Beautiful terminal / text editor / IDE font|Monospace Font with Ligature Support|
 |[San Francisco Font](https://aur.archlinux.org/packages/otf-san-francisco/)|Minimial, clean font used in macOS|System Font|
 |[feh](https://wiki.archlinux.org/index.php/feh)|Sets Background|Background Setter|
 |[feh-blur](https://github.com/rstacruz/feh-blur-wallpaper)|Blurs background when a window is opened|Draws Focus to Windows|
