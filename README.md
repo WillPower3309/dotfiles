@@ -62,10 +62,17 @@ Collection of Dotfiles for the Lovely Members of r/UnixPorn
 
 <a name="application-theming"></a>
 ## Application Theming: ##
-  - [Install Spicetify](https://github.com/khanhas/spicetify-cli): Make spotify sexy
-  - [Install My Good Looking Custom Transparent vscode](https://github.com/WillPower3309/vscode-transparent)
-  - [Install Slack Desktop with Patched Dark Theme](https://aur.archlinux.org/packages/slack-desktop-dark/)
+  - [Install a Good Looking Custom Transparent vscode](https://github.com/coler706/vscode), and [follow these settings guidelines](https://app.getpocket.com/read/2581858073)
   - [Set up This Firefox Theme](https://github.com/muckSponge/MaterialFox)
+  - [Install Spicetify](https://github.com/khanhas/spicetify-cli): Make spotify sexy, guide below
+
+### Spotify ###
+1. Ensure [spicetify](https://github.com/khanhas/spicetify-cli) is installed
+2. chown spotify directory: `sudo chown $USER -R /opt/spotify`
+3. run `spicetify` once to generate config
+4. `spicetify backup apply enable-devtool` to enable devtools
+5. Place your color.ini and user.css in `~/.config/spicetify/Themes/<your theme name, whatever you want>` and edit `~/.config/spicetify/config.ini` to reflect this name
+6. run `spicetify update restart`
 
 ### OhMyZsh ###
 - Install Powerline Fonts
@@ -85,19 +92,7 @@ Collection of Dotfiles for the Lovely Members of r/UnixPorn
     - `git clone https://github.com/zsh-users/zsh-autosuggestions $ZSH_CUSTOM/plugins/zsh-autosuggestions`
     - Edit `~/.zshrc`, add `zsh-autosuggestions` to the plugins section
     - Reread config `source ~/.zshrc`
-- [More Theming Info](https://www.freecodecamp.org/news/jazz-up-your-zsh-terminal-in-seven-steps-a-visual-guide-e81a8fd59a38/)
-
-### Spotify ###
-1. Ensure [spicetify](https://github.com/khanhas/spicetify-cli) is installed
-2. chown spotify directory: `sudo chown $USER -R /opt/spotify`
-3. run `spicetify` once to generate config
-4. `spicetify backup apply enable-devtool` to enable devtools
-5. Place your color.ini and user.css in `~/.config/spicetify/Themes/<your theme name, whatever you want>` and edit `~/.config/spicetify/config.ini` to reflect this name
-6. run `spicetify update restart`
-
-### Code ###
-- [General Settings Guidelines](https://app.getpocket.com/read/2581858073)
-- [My custom transparent code repo](https://github.com/WillPower3309/vscode-transparent)
+- [Guide](https://www.freecodecamp.org/news/jazz-up-your-zsh-terminal-in-seven-steps-a-visual-guide-e81a8fd59a38/)
 
 <a name="dock"></a>
 ## Latte Dock Setup ##
