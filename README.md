@@ -99,7 +99,7 @@ Collection of Dotfiles for the Lovely Members of r/UnixPorn
 **Top Panel:**
 - Mode: panel
 - Widgets (in order):
-  - Active Window Control
+  - Window Title Applet
   - Global Menu
     - GTK / Electron Global Menu Panel Support:
       - `sudo pacman -S appmenu-gtk-module appmenu-gtk-module`
