@@ -1,4 +1,5 @@
 # dotfiles
+[![HitCount](http://hits.dwyl.io/willpower3309/dotfiles.svg)](http://hits.dwyl.io/willpower3309/dotfiles)
 Collection of Dotfiles for the Lovely Members of r/UnixPorn
 
 ![](/screenshot.png "")
