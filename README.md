@@ -63,7 +63,7 @@ Collection of Dotfiles for the Lovely Members of r/UnixPorn
 
 <a name="application-theming"></a>
 ## Application Theming: ##
-  - [Install a Good Looking Custom Transparent vscode](https://github.com/coler706/vscode), and [follow these settings guidelines](https://app.getpocket.com/read/2581858073)
+  - [Install a Good Looking Custom Transparent vscode](https://github.com/coler706/vscode), and [follow these settings guidelines](https://dev.to/selrond/tips-to-use-vscode-more-efficiently-3h6p)
   - [Set up This Firefox Theme](https://github.com/muckSponge/MaterialFox)
   - [Install Spicetify](https://github.com/khanhas/spicetify-cli): Make spotify sexy, guide below
 
